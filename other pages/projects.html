@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--This needs to be added to every page to allow for navigation-->
+<nav>
+    <ul class="main-nav">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="work samples.html">Work Samples</a></li>
+        <li><a href="website updates.html">Website Updates</a></li>
+        <li class="push"><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
     <link rel="stylesheet" href="../styles.css">
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
 
 </head>
+
 <body>
     <h1>My Projects</h1>
     <p>Below is a list of my projects and an associated description.</p>
@@ -25,6 +37,30 @@
         <li>GitHub</li>
         <li>GitHub Pages</li>
     </ul>
+    <h2>SHC Rover Two-Month 2024</h2>
+    <h3>Project information</h3>
+    <p><b>Date started: </b>9/2024</p>
+    <p><b>Date completed: </b>10/30/2024</p>
+    <a href="https://github.com/jackrschumacher/SHC-RoverTeam-3">SHC Rover Two-Month 2024 GitHub</a>
+    <p>This project involved programming a Raspberry Pi Pico microcontroller to interface with a Libre Renegade over
+        serial using the ROS 2 language.</p>
+    The microcontroller had to perform the following tasks
+    <ul>
+        <li>Read Accelerometer data and report it back to the Libre Renegade via serial and also store it on an SD card
+        </li>
+        <li>Read enviromental data and report it back to the Libre Renegade via serial and also store it on an SD card
+        </li>
+        <li>Take motor commands over serial and translate them into movements of the arm</li>
+        <li>Display the data received by the Libre Renegade and display it in a PyQt interface</li>
+    </ul>
+    <h3>Skills</h3>
+    <ul>
+        <li>C++</li>
+        <li>Python</li>
+        <li>ROS 2</li>
+        <li>GitHub</li>
+        <li>Git</li>
+    </ul>
     <!--Add some line breaks. TODO: Is there a better way to do this?-->
     <br>
     <br>
@@ -32,4 +68,5 @@
     <!--Goes back to the previous page-->
     <a href="#" onclick="history.go(-1)">Go Back</a>
 </body>
+
 </html>
