@@ -1,6 +1,6 @@
 # Website
 ## Status
-[![GitHub Pages deployment status](https://github.com/jackrschumacher/website/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/jackrschumacher/website/actions/workflows/pages/pages-build-deployment)
+[![pages-build-deployment](https://github.com/jackrschumacher/website/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/jackrschumacher/website/actions/workflows/pages/pages-build-deployment)
 
 ## About
 A personal website for showcasing my projects and more
