@@ -72,7 +72,31 @@ body {
   background-color: rgb(188, 188, 188);
   color: black;
 }
-
+.back-button{
+  background-color: slategray; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  position:relative;
+  margin-top:20px;  
+  cursor: pointer;
+}
+.back-button:hover{
+  background-color: lightblue;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+.back-button::before{
+  content: "⬅️ Back"
+}
 
 .main-nav {
   margin: 0px;
