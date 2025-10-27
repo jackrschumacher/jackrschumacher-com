@@ -5,8 +5,17 @@
 }
 
 @media (min-width: 768px) {
-    container {
+    .container {
         flex-direction: row
+    }
+    .main-nav{
+        flex-direction: column;
+    }
+    .main-nav a {
+        text-align: center;
+    }
+    .push{
+        margin-left: unset;
     }
 }
 
@@ -99,14 +108,13 @@ body {
 }
 
 .main-nav {
-    margin: 0px;
-    padding: 0px;
     list-style: none;
-    font: 1.2em sans-serif;
+    font: 600 1.2em sans-serif;
 
     display: flex;
-    background-color: gray;
     flex-direction: row;
+    background-color: gray;
+    margin: 0 0 20px 0;
     border-radius: 4px;
 
 
