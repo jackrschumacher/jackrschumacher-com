@@ -1,37 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Work Samples</title>
-        <link rel="stylesheet" href="../styles.css">
-        <link rel="icon" href="../images/favicon.ico"/>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Jack Schumacher</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../images/favicon.ico">
+</head>
 
-    </head>
-    <nav>
-        <ul class="main-nav">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="work samples.html">Work Samples</a></li>
-            <li><a href="website updates.html">Website Updates</a></li>
-            <li class="push"><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+<body>
+    <div class="container">
 
+        <header class="site-header">
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
 
-    <body>
-        <h1>Contact Information</h1>
-        <p><b>Personal Email: </b>jackrschumacher@gmail.com</p>
-        <p><b>University Email: </b>js0342@uah.edu</p>
-        <p><b>Phone: </b>262-219-2485</p>
-        <h2>My Links</h2>
-        <a href="https://www.linkedin.com/in/jackrschumacher/" class="spaced-button">LinkedIn</a>
-        <a href="https://github.com/jackrschumacher" class="spaced-button">Github</a>
+            <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="work samples.html">Work Samples</a></li>
+                    <li><a href="website updates.html">Website Updates</a></li>
+                    <li class="push"><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <p><a href="#" onclick="history.go(-1)" class="back-button"></a></p>
+        <main>
+            <h1>Contact Information</h1>
+            <p><strong>Personal Email:</strong> <a href="mailto:jackrschumacher@gmail.com">jackrschumacher@gmail.com</a></p>
+            <p><strong>University Email:</strong> <a href="mailto:js0342@uah.edu">js0342@uah.edu</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+12622192485">262-219-2485</a></p>
 
+            <h2>My Links</h2>
+            <div class="button-group">
+                <a href="https://www.linkedin.com/in/jackrschumacher/" target="_blank" class="spaced-button">LinkedIn</a>
+                <a href="https://github.com/jackrschumacher" target="_blank" class="spaced-button">GitHub</a>
+            </div>
 
-    </body>
+           
+        </main>
 
+    </div>
+
+    <script src="../script.js" defer></script>
+</body>
 </html>

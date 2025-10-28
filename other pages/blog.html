@@ -1,39 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Jack Schumacher</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../images/favicon.ico">
+</head>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jack Schumacher</title>
-        <link rel="stylesheet" href="../styles.css">
-        <link rel="icon" href="images/favicon.ico">
+<body>
+    <div class="container">
 
-    </head>
-    <!--This needs to be added to every page to allow for navigation-->
-    <nav>
-        <ul class="main-nav">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="work samples.html">Work Samples</a></li>
-            <li><a href="website updates.html">Website Updates</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li class="push"><a href="contact.html">Contact</a></li>
+        <header class="site-header">
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
 
-        </ul>
-    </nav>
+            <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="work samples.html">Work Samples</a></li>
+                    <li><a href="website updates.html">Website Updates</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li class="push"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-
-
-    <body>
-        <h1>Blog</h1>
-
-        <h2>Posts</h2>
-        <ul>
-            <li></li>
-        </ul>
-
-        <a href="#" onclick="history.go(-1)" class="back-button"></a>
-    <body>
+        <main>
+            <h1>Blog</h1>
+            <h2>Posts</h2>
+            
 
 
+        </main>
+
+    </div>
+
+    <script src="../script.js" defer></script>
+</body>
+</html>

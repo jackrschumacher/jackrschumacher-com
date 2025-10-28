@@ -1,41 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jack Schumacher</title>
-        <link rel="stylesheet" href="../styles.css">
-        <link rel="icon" href="images/favicon.ico">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Projects - Jack Schumacher</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../images/favicon.ico">
+</head>
 
-    </head>
-    
-    <nav>
-        <ul class="main-nav">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="work samples.html">Work Samples</a></li>
-            <li><a href="website updates.html">Website Updates</a></li>
-            <li class="push"><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+<body>
+    <div class="container">
 
+        <header class="site-header">
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
 
-    <body>
-        <h1>All my projects</h1>
-        <p>This page links all my public projects/repositories and their associated links and files</p>
-        <ul>
-            <li><a href="https://github.com/jackrschumacher/website">website</a></li>
-            <li><a href="https://github.com/jackrschumacher/devices">devices</a></li>
-            <li><a href="https://github.com/jackrschumacher/ASTRA-Notes">ASTRA-Notes</a></li>
-            <li><a href="https://github.com/jackrschumacher/SHC-RoverTeam-3">SHC-RoverTeam-3</a></li>
-            <li><a href="https://github.com/jackrschumacher/PicoMotorTest">PicoMotorTest</a></li>
-            <li><a href="https://github.com/jackrschumacher/OverrunLogger">OverrunLogger (Public archive)</a></li>
-            <li><a href="https://github.com/jackrschumacher/RomiTraining2023">RomiTraining2023 (Public archive)</a></li>
-            <li><a href="https://github.com/jackrschumacher/2023RobotLED">2023RobotLED (Public archive)</a></li>
-            <li><a href="https://github.com/jackrschumacher/Hackathon-Project-2022">Hackathon-Project-2022 (Public archive)</a></li>
-        </ul>
+            <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="work samples.html">Work Samples</a></li>
+                    <li><a href="website updates.html">Website Updates</a></li>
+                    <li class="push"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <a href="#" onclick="history.go(-1)" class="back-button"></a>
+        <main>
+            <h1>All My Projects</h1>
+            <p>This page links all my public GitHub repositories with associated files and documentation.</p>
 
-    </body>
+            <ul class="project-list">
+                <li><a href="https://github.com/jackrschumacher/website" target="_blank">website</a></li>
+                <li><a href="https://github.com/jackrschumacher/devices" target="_blank">devices</a></li>
+                <li><a href="https://github.com/jackrschumacher/ASTRA-Notes" target="_blank">ASTRA-Notes</a></li>
+                <li><a href="https://github.com/jackrschumacher/SHC-RoverTeam-3" target="_blank">SHC-RoverTeam-3</a></li>
+                <li><a href="https://github.com/jackrschumacher/PicoMotorTest" target="_blank">PicoMotorTest</a></li>
+                <li><a href="https://github.com/jackrschumacher/OverrunLogger" target="_blank">OverrunLogger (Public Archive)</a></li>
+                <li><a href="https://github.com/jackrschumacher/RomiTraining2023" target="_blank">RomiTraining2023 (Public Archive)</a></li>
+                <li><a href="https://github.com/jackrschumacher/2023RobotLED" target="_blank">2023RobotLED (Public Archive)</a></li>
+                <li><a href="https://github.com/jackrschumacher/Hackathon-Project-2022" target="_blank">Hackathon-Project-2022 (Public Archive)</a></li>
+            </ul>
+
+            
+        </main>
+
+    </div>
+
+    <script src="../script.js" defer></script>
+</body>
+</html>
