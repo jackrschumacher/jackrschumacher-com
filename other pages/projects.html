@@ -1,112 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Projects</title>
-        <link rel="stylesheet" href="../styles.css">
-        <link rel="icon" href="../images/favicon.ico"/>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Jack Schumacher</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../images/favicon.ico">
+</head>
 
-    </head>
-    <nav>
-        <ul class="main-nav">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="work samples.html">Work Samples</a></li>
-            <li><a href="website updates.html">Website Updates</a></li>
-            <li class="push"><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+<body>
+    <div class="container">
 
+        <header class="site-header">
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
 
-    <body>
-        <h1>My Projects</h1>
-        <h2>GitHub statistics</h2>
-        <a>
-            <img height=200 align="center"
-                 src="https://jackr-github-readme-stats.vercel.app/api?username=jackrschumacher&show_icons=true&hide_rank=true&theme=default" />
-        </a>
-        <a>
-            <img height=200 align="center"
-                 src="https://jackr-github-readme-stats.vercel.app/api/top-langs/?username=jackrschumacher&layout=compact&theme=default&langs_count=8" />
-        </a>
-        <p>Below are some of my featured projects. Scroll down for descriptions</p>
-        <p><a href="all projects.html" class="button">A list of all my projects</a></p>
+            <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="work samples.html">Work Samples</a></li>
+                    <li><a href="website updates.html">Website Updates</a></li>
+                    <li class="push"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
+        <main>
+            <h1>My Projects</h1>
 
+            <h2>GitHub Stats</h2>
+            <div class="github-stats">
+                <img src="https://jackr-github-readme-stats.vercel.app/api?username=jackrschumacher&show_icons=true&hide_rank=true&theme=default" alt="GitHub Stats" height="200">
+                <img src="https://jackr-github-readme-stats.vercel.app/api/top-langs/?username=jackrschumacher&layout=compact&theme=default&langs_count=8" alt="Top Languages" height="200">
+            </div>
 
+            <p>See <a href="all projects.html">all projects</a> for a complete list.</p>
 
-        <h2>Featured projects</h2>
+            <h2>Featured Projects</h2>
 
-        <h3>Website</h3>
-    <picture>
-        <a href="https://github.com/jackrschumacher/website" style="text-decoration:none;">
-            <source
+            <section>
+                <h3>Website</h3>
+                <a href="https://github.com/jackrschumacher/website" target="_blank">
+                    <img src="https://jackr-github-readme-stats.vercel.app/api/pin?username=jackrschumacher&repo=website&show_owner=true" alt="Website Repo" height="100">
+                </a>
+                <p><strong>Started:</strong> 4/9/2025 — <strong>Ongoing</strong></p>
+                <p>This project is the source code for this personal website.</p>
+                <p><strong>Skills:</strong> HTML, CSS, Web Design, GitHub Pages</p>
+            </section>
 
-                srcset="https://jackr-github-readme-stats.vercel.app/api/pin?username=jackrschumacher&repo=website&show_owner=true"
-                media="(prefers-color-scheme: dark)"
-                />
-            <source
-                srcset="https://jackr-github-readme-stats.vercel.app/api/pin?username=jackrschumacher&repo=website&show_owner=true"
-                media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-                />
-            <img height=100 align="center" src="https://jackr-github-readme-stats.vercel.app/api/pin?username=jackrschumacher&repo=website&show_owner=true" />
-        </a>
-    </picture>
-    <h4>Project information</h4>
-    <p><b>Date started: </b>4/9/2025</p>
-    <p><b>Date completed: </b>Ongoing</p>
-    <a href="https://github.com/jackrschumacher/website" class="button">Website project GitHub</a>
-    <p>This project involved the creation of this website as a "repository" of all of my projects and information.</p>
-    <h4>Skills</h4>
-    <ul>
-        <li>CSS</li>
-        <li>HTML</li>
-        <li>Web Design</li>
-        <li>GitHub</li>
-        <li>GitHub Pages</li>
-    </ul>
-    <h3>SHC Rover Two-Month 2024</h3>
-    <picture>
-        <a href="https://github.com/jackrschumacher/SHC-RoverTeam-3" style="text-decoration:none;">
-            <source
+            <section>
+                <h3>SHC Rover Two-Month 2024</h3>
+                <a href="https://github.com/jackrschumacher/SHC-RoverTeam-3" target="_blank">
+                    <img src="https://jackr-github-readme-stats.vercel.app/api/pin?username=jackrschumacher&repo=SHC-RoverTeam-3&show_owner=true" alt="Rover Repo" height="100">
+                </a>
+                <p><strong>Started:</strong> 9/2024 — <strong>Completed:</strong> 10/30/2024</p>
+                <p>Programmed Raspberry Pi Pico to interface with Libre Renegade via ROS 2. Handled sensor data, motor control, and PyQt GUI.</p>
+                <p><strong>Skills:</strong> C++, Python, ROS 2, Git</p>
+            </section>
 
-                srcset="https://jackr-github-readme-stats.vercel.app/api/pin?username=jackrschumacher&repo=SHC-RoverTeam-3&show_owner=true"
-                media="(prefers-color-scheme: dark)"
-                />
-            <source
-                srcset="https://jackr-github-readme-stats.vercel.app/api/pin?username=jackrschumacher&repo=SHC-RoverTeam-3&show_owner=true"
-                media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-                />
-            <img height=100 align="center" src="https://jackr-github-readme-stats.vercel.app/api/pin?username=jackrschumacher&repo=SHC-RoverTeam-3&show_owner=true"/>
-        </a>
-    </picture>
-    <h4>Project information</h4>
-    <p><b>Date started: </b>9/2024</p>
-    <p><b>Date completed: </b>10/30/2024</p>
-    <a href="https://github.com/jackrschumacher/SHC-RoverTeam-3" class="button">SHC Rover Two-Month 2024 GitHub</a>
-    <p>This project involved programming a Raspberry Pi Pico microcontroller to interface with a Libre Renegade over
-        serial using the ROS 2 language.</p>
-    The microcontroller had to perform the following tasks
-    <ul>
-        <li>Read Accelerometer data and report it back to the Libre Renegade via serial and also store it on an SD card
-        </li>
-        <li>Read enviromental data and report it back to the Libre Renegade via serial and also store it on an SD card
-        </li>
-        <li>Take motor commands over serial and translate them into movements of the arm</li>
-        <li>Display the data received by the Libre Renegade and display it in a PyQt interface</li>
-    </ul>
-    <h4>Skills</h4>
-    <ul>
-        <li>C++</li>
-        <li>Python</li>
-        <li>ROS 2</li>
-        <li>GitHub</li>
-        <li>Git</li>
-    </ul>
+            
+        </main>
 
-    <a href="#" onclick="history.go(-1)" class="back-button"></a>
+    </div>
+
+    <script src="../script.js" defer></script>
 </body>
-
 </html>

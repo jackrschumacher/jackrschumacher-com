@@ -1,47 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Website Updates</title>
-        <link rel="stylesheet" href="../styles.css">
-        <link rel="icon" href="../images/favicon.ico"/>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Updates - Jack Schumacher</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../images/favicon.ico">
+</head>
 
-    </head>
+<body>
+    <div class="container">
 
-    <nav>
-        <ul class="main-nav">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="work samples.html">Work Samples</a></li>
-            <li><a href="website updates.html">Website Updates</a></li>
-            <li class="push"><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+        <header class="site-header">
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
 
-    <body>
-        <h1>Website Updates</h1>
-        <h2>Links</h2>
+            <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="work samples.html">Work Samples</a></li>
+                    <li><a href="website updates.html" class="active">Website Updates</a></li>
+                    <li class="push"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
+        <main>
+            <h1>Website Updates</h1>
 
+            <h2>Latest Commits</h2>
+            <a href="https://github.com/jackrschumacher/website/commits/main/" target="_blank" class="spaced-button">View on GitHub</a>
 
+            <h2>Changelog</h2>
+            <ul class="changelog">
+                <li><strong>6/23/25</strong> — Added details to about page, fixed formatting</li>
+                <li><strong>5/26/25</strong> — Fixed spelling and layout issues</li>
+                <li><strong>4/17/25</strong> — Added GitHub stats cards</li>
+                <li><strong>4/10/25</strong> — Updated menu, added About + All Projects</li>
+                <li><strong>4/9/25</strong> — Embedded files, updated styles</li>
+                <li><strong>4/9/25</strong> — Created site, added pages</li>
+            </ul>
 
+            
+        </main>
 
-        <a href="https://github.com/jackrschumacher/website/commits/main/" class="button">Latest commits from the main branch</a>
+    </div>
 
-
-
-
-        <h2>Updates</h2>
-        <ul>
-            <li>(6/23/25) Added details to about pages and fixed formatting on all pages</li>
-            <li>(5/26/25)Fixed spelling issues and formatting</li>
-            <li>(4/17/25) Add links to Github using github-readme-stats</li>
-            <li>(4/10/2025) Updated menu style, added about, added all projects </li>
-            <li>(4/9/2025) Updated style, embedded and added some files</li>
-            <li>(4/9/2025) Created site, updated styles, added pages</li>
-        </ul>
-        <a href="#" onclick="history.go(-1)" class="back-button"></a>
-    </body>
+    <script src="../script.js" defer></script>
+</body>
 </html>

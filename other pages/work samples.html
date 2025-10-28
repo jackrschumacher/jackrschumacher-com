@@ -1,31 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Work Samples</title>
-        <link rel="stylesheet" href="../styles.css">
-        <link rel="icon" href="../images/favicon.ico"/>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Samples - Jack Schumacher</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../images/favicon.ico">
+</head>
 
-    </head>
-    <nav>
-        <ul class="main-nav">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="work samples.html">Work Samples</a></li>
-            <li><a href="website updates.html">Website Updates</a></li>
-            <li class="push"><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+<body>
+    <div class="container">
 
-    <body>
-        <h1>Work Samples</h1>
-        <p>Samples of my work</p>
+        <header class="site-header">
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
 
-        <h2>Technical Writing example (2022)</h2>
-        <p>Written in 2022 for PLTW Principles of Engineering.</p>
-        <p><a href="../files/Jack Schumacher Technical writing example 2022.pdf" download="Jack Schumacher Technical writing example 2022">Download PDF</a></p>
-        <a href="#" onclick="history.go(-1)" class="back-button"></a>
-    </body>
-</html> 
+            <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="work samples.html" class="active">Work Samples</a></li>
+                    <li><a href="website updates.html">Website Updates</a></li>
+                    <li class="push"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Work Samples</h1>
+            <p>Examples of my technical writing, documentation, and deliverables.</p>
+
+            <h2>Technical Writing Example (2022)</h2>
+            <p>Written for PLTW Principles of Engineering — FANUC 200iD Robot Lesson Book.</p>
+            <a href="../files/Jack Schumacher Technical writing example 2022.pdf" download class="spaced-button">
+                Download PDF
+            </a>
+
+           
+
+    </div>
+
+    <script src="../script.js" defer></script>
+</body>
+</html>
