@@ -1,56 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Projects - Jack Schumacher</title>
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="icon" href="../images/favicon.ico">
-</head>
-
-<body>
-    <div class="container">
-
-        <header class="site-header">
-            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
-                <span class="hamburger-line"></span>
-                <span class="hamburger-line"></span>
-                <span class="hamburger-line"></span>
-            </button>
-
-            <nav id="main-nav" class="main-nav" aria-label="Main navigation">
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="projects.html" class="active">Projects</a></li>
-                    <li><a href="work samples.html">Work Samples</a></li>
-                    <li><a href="website updates.html">Website Updates</a></li>
-                    <li class="push"><a href="contact.html">Contact</a></li>
+<html lang="en" data-theme="light">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>All Projects - Jack Schumacher</title>
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="icon" href="../../images/favicon.ico">
+        <script>
+            (function() {
+                const html = document.documentElement;
+                const saved = localStorage.getItem('theme');
+                if (saved) {
+                    html.setAttribute('data-theme', saved);
+                } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    html.setAttribute('data-theme', 'dark');
+                }
+            })();
+        </script>
+    </head>
+    <body>
+        <script src="../script.js" defer></script>
+        <div class="loader-wrapper">
+            <div class="loader"></div>
+        </div>
+        <div class="container">
+            <header class="site-header"></header>
+            <main>
+                <h1>All My Projects</h1>
+                <p>This page links all my public GitHub repositories with associated files and documentation.</p>
+                <ul class="project-list">
+                    <li><a href="https://github.com/jackrschumacher/website" target="_blank">website</a></li>
+                    <li><a href="https://github.com/jackrschumacher/devices" target="_blank">devices</a></li>
+                    <li><a href="https://github.com/jackrschumacher/ASTRA-Notes" target="_blank">ASTRA-Notes</a></li>
+                    <li><a href="https://github.com/jackrschumacher/SHC-RoverTeam-3" target="_blank">SHC-RoverTeam-3</a></li>
+                    <li><a href="https://github.com/jackrschumacher/PicoMotorTest" target="_blank">PicoMotorTest</a></li>
+                    <li><a href="https://github.com/jackrschumacher/OverrunLogger" target="_blank">OverrunLogger (Public Archive)</a></li>
+                    <li><a href="https://github.com/jackrschumacher/RomiTraining2023" target="_blank">RomiTraining2023 (Public Archive)</a></li>
+                    <li><a href="https://github.com/jackrschumacher/2023RobotLED" target="_blank">2023RobotLED (Public Archive)</a></li>
+                    <li><a href="https://github.com/jackrschumacher/Hackathon-Project-2022" target="_blank">Hackathon-Project-2022 (Public Archive)</a></li>
                 </ul>
-            </nav>
-        </header>
+            </main>
+        </div>
 
-        <main>
-            <h1>All My Projects</h1>
-            <p>This page links all my public GitHub repositories with associated files and documentation.</p>
+        <button class="theme-toggle" aria-label="Toggle dark mode">
+            <svg class="sun" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"/>
+            <line x1="12" y1="1" x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+            <line x1="1" y1="12" x2="3" y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+            </svg>
+            <svg class="moon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+            </svg>
+        </button>
 
-            <ul class="project-list">
-                <li><a href="https://github.com/jackrschumacher/website" target="_blank">website</a></li>
-                <li><a href="https://github.com/jackrschumacher/devices" target="_blank">devices</a></li>
-                <li><a href="https://github.com/jackrschumacher/ASTRA-Notes" target="_blank">ASTRA-Notes</a></li>
-                <li><a href="https://github.com/jackrschumacher/SHC-RoverTeam-3" target="_blank">SHC-RoverTeam-3</a></li>
-                <li><a href="https://github.com/jackrschumacher/PicoMotorTest" target="_blank">PicoMotorTest</a></li>
-                <li><a href="https://github.com/jackrschumacher/OverrunLogger" target="_blank">OverrunLogger (Public Archive)</a></li>
-                <li><a href="https://github.com/jackrschumacher/RomiTraining2023" target="_blank">RomiTraining2023 (Public Archive)</a></li>
-                <li><a href="https://github.com/jackrschumacher/2023RobotLED" target="_blank">2023RobotLED (Public Archive)</a></li>
-                <li><a href="https://github.com/jackrschumacher/Hackathon-Project-2022" target="_blank">Hackathon-Project-2022 (Public Archive)</a></li>
-            </ul>
-
-            
-        </main>
-
-    </div>
-
-    <script src="../script.js" defer></script>
-</body>
+        <script src="../script.js" defer></script>
+    </body>
 </html>
