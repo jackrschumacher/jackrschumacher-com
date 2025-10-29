@@ -72,13 +72,21 @@ body.loaded .container {
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 /* Global theme application */
 html, body {
@@ -374,11 +382,23 @@ html, body {
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-.theme-toggle .sun  { opacity: 1; transform: rotate(0); }
-.theme-toggle .moon { opacity: 0; transform: rotate(-90deg); }
+.theme-toggle .sun  {
+    opacity: 1;
+    transform: rotate(0);
+}
+.theme-toggle .moon {
+    opacity: 0;
+    transform: rotate(-90deg);
+}
 
-[data-theme="dark"] .theme-toggle .sun  { opacity: 0; transform: rotate(90deg); }
-[data-theme="dark"] .theme-toggle .moon { opacity: 1; transform: rotate(0); }
+[data-theme="dark"] .theme-toggle .sun  {
+    opacity: 0;
+    transform: rotate(90deg);
+}
+[data-theme="dark"] .theme-toggle .moon {
+    opacity: 1;
+    transform: rotate(0);
+}
 
 /* Keyboard focus */
 .theme-toggle:focus-visible {
