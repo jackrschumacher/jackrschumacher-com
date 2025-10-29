@@ -1,73 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects - Jack Schumacher</title>
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="icon" href="../images/favicon.ico">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projects - Jack Schumacher</title>
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="icon" href="../images/favicon.ico">
+        <script>
+            (function() {
+                const html = document.documentElement;
+                const saved = localStorage.getItem('theme');
+                if (saved) {
+                    html.setAttribute('data-theme', saved);
+                } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    html.setAttribute('data-theme', 'dark');
+                }
+            })();
+        </script>
+    </head>
 
-<body>
-    <div class="container">
+    <body>
+        <script src="../script.js" defer></script>
+        <div class="loader-wrapper">
+            <div class="loader"></div>
+        </div>
+        <div class="container">
 
-        <header class="site-header">
-            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
-                <span class="hamburger-line"></span>
-                <span class="hamburger-line"></span>
-                <span class="hamburger-line"></span>
-            </button>
+            <header class="site-header"></header>
 
-            <nav id="main-nav" class="main-nav" aria-label="Main navigation">
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="projects.html" class="active">Projects</a></li>
-                    <li><a href="work samples.html">Work Samples</a></li>
-                    <li><a href="website updates.html">Website Updates</a></li>
-                    <li class="push"><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+            <main>
+                <h1>My Projects</h1>
 
-        <main>
-            <h1>My Projects</h1>
+                <picture>
+                    <source
+                        srcset="https://jackr-github-readme-stats.vercel.app/api?username=jackrschumacher&show_icons=true&hide_rank=true&theme=github_dark&show=prs_merged"
+                        media="(prefers-color-scheme: dark)"
+                        />
+                    <source
+                        srcset="https://jackr-github-readme-stats.vercel.app/api?username=jackrschumacher&show_icons=true&hide_rank=true&theme=default"
+                        media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+                        />
+                    <img height=200 align="center" src="https://jackr-github-readme-stats.vercel.app/api?username=jackrschumacher&show_icons=true&hide_rank=true&theme=default" />
+                </picture>
 
-            <h2>GitHub Stats</h2>
-            <div class="github-stats">
-                <img src="https://jackr-github-readme-stats.vercel.app/api?username=jackrschumacher&show_icons=true&hide_rank=true&theme=default" alt="GitHub Stats" height="200">
-                <img src="https://jackr-github-readme-stats.vercel.app/api/top-langs/?username=jackrschumacher&layout=compact&theme=default&langs_count=8" alt="Top Languages" height="200">
-            </div>
 
-            <p>See <a href="all projects.html">all projects</a> for a complete list.</p>
+                <picture>
+                    <source
+                        srcset="https://jackr-github-readme-stats.vercel.app/api/top-langs/?username=jackrschumacher&layout=compact&theme=github_dark&langs_count=8"
+                        media="(prefers-color-scheme: dark)"
+                        />
+                    <source
+                        srcset="https://jackr-github-readme-stats.vercel.app/api/top-langs/?username=jackrschumacher&layout=compact&theme=default&langs_count=8"
+                        media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+                        />
+                    <img height=200 align="center" src="https://jackr-github-readme-stats.vercel.app/api/top-langs/?username=jackrschumacher&layout=compact&theme=default&langs_count=8" />
+                </picture>
 
-            <h2>Featured Projects</h2>
+                <p>See <a href="all projects.html">all projects</a> for a complete list.</p>
 
-            <section>
-                <h3>Website</h3>
-                <a href="https://github.com/jackrschumacher/website" target="_blank">
-                    <img src="https://jackr-github-readme-stats.vercel.app/api/pin?username=jackrschumacher&repo=website&show_owner=true" alt="Website Repo" height="100">
-                </a>
-                <p><strong>Started:</strong> 4/9/2025 — <strong>Ongoing</strong></p>
-                <p>This project is the source code for this personal website.</p>
-                <p><strong>Skills:</strong> HTML, CSS, Web Design, GitHub Pages</p>
-            </section>
+                <h2>Featured Projects</h2>
 
-            <section>
-                <h3>SHC Rover Two-Month 2024</h3>
-                <a href="https://github.com/jackrschumacher/SHC-RoverTeam-3" target="_blank">
-                    <img src="https://jackr-github-readme-stats.vercel.app/api/pin?username=jackrschumacher&repo=SHC-RoverTeam-3&show_owner=true" alt="Rover Repo" height="100">
-                </a>
-                <p><strong>Started:</strong> 9/2024 — <strong>Completed:</strong> 10/30/2024</p>
-                <p>Programmed Raspberry Pi Pico to interface with Libre Renegade via ROS 2. Handled sensor data, motor control, and PyQt GUI.</p>
-                <p><strong>Skills:</strong> C++, Python, ROS 2, Git</p>
-            </section>
+                <section>
+                    <h3>Website</h3>
+                    <a href="https://github.com/jackrschumacher/website" target="_blank">
+                        <img src="https://jackr-github-readme-stats.vercel.app/api/pin?username=jackrschumacher&repo=website&show_owner=true" alt="Website Repo" height="100">
+                    </a>
+                   
+                    <p><strong>Started:</strong> 4/9/2025 — <strong>Ongoing</strong></p>
+                    <p>This project is the source code for this personal website.</p>
+                    <p><strong>Skills:</strong> HTML, CSS, Web Design, GitHub Pages</p>
+                </section>
 
-            
-        </main>
+                <section>
+                    <h3>SHC Rover Two-Month 2024</h3>
+                    <a href="https://github.com/jackrschumacher/SHC-RoverTeam-3" target="_blank">
+                        <img src="https://jackr-github-readme-stats.vercel.app/api/pin?username=jackrschumacher&repo=SHC-RoverTeam-3&show_owner=true" alt="Rover Repo" height="100">
+                    </a>
+                    <p><strong>Started:</strong> 9/2024 — <strong>Completed:</strong> 10/30/2024</p>
+                    <p>Programmed Raspberry Pi Pico to interface with Libre Renegade via ROS 2. Handled sensor data, motor control, and PyQt GUI.</p>
+                    <p><strong>Skills:</strong> C++, Python, ROS 2, Git</p>
+                </section>
 
-    </div>
 
-    <script src="../script.js" defer></script>
-</body>
+            </main>
+
+        </div>
+        <button class="theme-toggle" aria-label="Toggle dark mode">
+            <svg class="sun" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"/>
+            <line x1="12" y1="1" x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+            <line x1="1" y1="12" x2="3" y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+            </svg>
+            <svg class="moon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+            </svg>
+        </button>
+        <script src="../script.js" defer></script>
+    </body>
 </html>
