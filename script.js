@@ -3,7 +3,8 @@ class MobileMenu {
         this.hamburger = document.querySelector('.hamburger');
         this.closeBtn = document.querySelector('.close-nav');
         this.nav = document.getElementById('main-nav');
-        if (!this.hamburger || !this.nav) return;
+        if (!this.hamburger || !this.nav)
+            return;
         this.bindEvents();
     }
 
@@ -38,7 +39,8 @@ class MobileMenu {
     }
 
     reset() {
-        if (window.innerWidth >= 768) this.close();
+        if (window.innerWidth >= 768)
+            this.close();
     }
 }
 
@@ -77,54 +79,58 @@ document.addEventListener('DOMContentLoaded', () => {
     // 2. SMART MENU LOADER — Tries multiple paths
     if (header && !header.querySelector('.hamburger')) {
         const possiblePaths = [
-            'menu.html',
-            '../menu.html',
+            '/website/menu.html',
             '../../menu.html',
-            '../../../menu.html',
-            '/menu.html'
+            '../menu.html',
+            'menu.html',
+            '/menu.html',
+            '../../../menu.html'
         ];
 
         let loaded = false;
         let attempts = 0;
 
         const tryLoad = (path) => {
-            if (loaded) return;
+            if (loaded)
+                return;
             attempts++;
             console.log(`Trying menu path: ${path}`);
 
             fetch(path)
-                .then(response => {
-                    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-                    return response.text();
-                })
-                .then(menuHTML => {
-                    if (loaded) return;
-                    loaded = true;
+                    .then(response => {
+                        if (!response.ok)
+                            throw new Error(`HTTP ${response.status}`);
+                        return response.text();
+                    })
+                    .then(menuHTML => {
+                        if (loaded)
+                            return;
+                        loaded = true;
 
-                    header.insertAdjacentHTML('afterbegin', menuHTML);
-                    console.log(`Menu loaded from: ${path}`);
+                        header.insertAdjacentHTML('afterbegin', menuHTML);
+                        console.log(`Menu loaded from: ${path}`);
 
-                    // Re-init menu
-                    new MobileMenu();
+                        // Re-init menu
+                        new MobileMenu();
 
-                    // Auto-highlight active page
-                    const currentFile = location.pathname.split('/').pop() || 'index.html';
-                    document.querySelectorAll('#main-nav a').forEach(link => {
-                        const linkFile = link.getAttribute('href').split('/').pop();
-                        if (linkFile === currentFile) {
-                            link.classList.add('active');
-                        }
-                    });
-                })
-                .catch(err => {
-                    console.warn(`Failed: ${path}`, err);
-                    // Try next path
-                    const nextIndex = possiblePaths.indexOf(path) + 1;
-                    if (nextIndex < possiblePaths.length) {
-                        setTimeout(() => tryLoad(possiblePaths[nextIndex]), 100);
-                    } else if (!loaded) {
-                        console.error('All menu paths failed.');
-                        header.innerHTML = `
+                        // Auto-highlight active page
+                        const currentFile = location.pathname.split('/').pop() || 'index.html';
+                        document.querySelectorAll('#main-nav a').forEach(link => {
+                            const linkFile = link.getAttribute('href').split('/').pop();
+                            if (linkFile === currentFile) {
+                                link.classList.add('active');
+                            }
+                        });
+                    })
+                    .catch(err => {
+                        console.warn(`Failed: ${path}`, err);
+                        // Try next path
+                        const nextIndex = possiblePaths.indexOf(path) + 1;
+                        if (nextIndex < possiblePaths.length) {
+                            setTimeout(() => tryLoad(possiblePaths[nextIndex]), 100);
+                        } else if (!loaded) {
+                            console.error('All menu paths failed.');
+                            header.innerHTML = `
                             <div style="
                                 background: #ff4444; 
                                 color: white; 
@@ -136,8 +142,8 @@ document.addEventListener('DOMContentLoaded', () => {
                             ">
                                 Menu failed to load. Check console.
                             </div>`;
-                    }
-                });
+                        }
+                    });
         };
 
         // Start trying
