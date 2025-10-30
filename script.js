@@ -46,7 +46,8 @@ class MobileMenu {
 }
 
 // === COMPONENT LOADER (Handles multiple paths for dynamic injection) ===
-const loadComponent = (targetElement, componentName, position) => {
+// MODIFIED: Added optional 'callback' parameter
+const loadComponent = (targetElement, componentName, position, callback = () => {}) => {
     // List of possible paths to try for the component based on directory depth
     const possiblePaths = [
         `/${componentName}`, // Absolute path from root
@@ -69,6 +70,7 @@ const loadComponent = (targetElement, componentName, position) => {
                 if (loaded) return;
                 loaded = true;
                 targetElement.insertAdjacentHTML(position, html);
+                callback(); // <<< NEW: Execute callback IMMEDIATELY after inserting HTML
             })
             .catch(err => {
                 const nextIndex = possiblePaths.indexOf(path) + 1;
@@ -103,7 +105,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const html = document.documentElement;
     
     // Call the footer loader: This fetches the footer and injects it.
-    loadComponent(document.body, 'footer.html', 'beforeend'); 
+    // MODIFIED: Added callback function to run year logic
+    loadComponent(document.body, 'footer.html', 'beforeend', () => {
+        // This code now runs *after* footer.html is loaded
+        const yearSpan = document.getElementById('current-year');
+        if (yearSpan) {
+            yearSpan.textContent = new Date().getFullYear();
+        }
+    }); 
     
     // 1. Theme Toggle
     const toggle = document.querySelector('.theme-toggle');
