@@ -480,6 +480,18 @@ a:hover {
     opacity: 0.8;
 }
 
+/* Removes line between the stats pages */
+.gh-stats{
+    display: flex;
+    gap:0.5%;
+
+}
+.gh-stats a{
+    margin:0;
+    padding:0;
+    display:block;
+}
+
 /* ========================================
    7. UTILITIES
    ======================================== */
