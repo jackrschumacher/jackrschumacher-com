@@ -1,5 +1,6 @@
 class MobileMenu {
     constructor() {
+// ... (MobileMenu class remains unchanged)
         this.hamburger = document.querySelector('.hamburger');
         this.closeBtn = document.querySelector('.close-nav');
         this.nav = document.getElementById('main-nav');
@@ -7,7 +8,7 @@ class MobileMenu {
             return;
         this.bindEvents();
     }
-
+// ... (rest of MobileMenu methods)
     bindEvents() {
         this.hamburger.addEventListener('click', () => this.toggle());
         this.closeBtn?.addEventListener('click', () => this.close());
@@ -44,6 +45,45 @@ class MobileMenu {
     }
 }
 
+// === COMPONENT LOADER (Handles multiple paths for dynamic injection) ===
+const loadComponent = (targetElement, componentName, position) => {
+    // List of possible paths to try for the component based on directory depth
+    const possiblePaths = [
+        `/${componentName}`, // Absolute path from root
+        `../${componentName}`, // Common for 1-level deep pages (e.g., /other pages/...)
+        `../../${componentName}`, // Common for 2-level deep pages (e.g., /other pages/blog pages/...)
+        componentName // For root index.html
+    ];
+
+    let loaded = false;
+
+    const tryLoad = (path) => {
+        if (loaded) return;
+
+        fetch(path)
+            .then(response => {
+                if (!response.ok) throw new Error(`HTTP ${response.status} for ${path}`);
+                return response.text();
+            })
+            .then(html => {
+                if (loaded) return;
+                loaded = true;
+                targetElement.insertAdjacentHTML(position, html);
+            })
+            .catch(err => {
+                const nextIndex = possiblePaths.indexOf(path) + 1;
+                if (nextIndex < possiblePaths.length) {
+                    tryLoad(possiblePaths[nextIndex]);
+                } else if (!loaded) {
+                    console.error(`All paths failed for ${componentName}.`);
+                }
+            });
+    };
+
+    // Start trying with the first path
+    tryLoad(possiblePaths[0]);
+};
+
 // === RESIZE DEBOUNCE ===
 let resizeTimer;
 window.addEventListener('resize', () => {
@@ -54,12 +94,17 @@ window.addEventListener('resize', () => {
     }, 400);
 });
 
+
+
 // === MAIN INIT ===
 document.addEventListener('DOMContentLoaded', () => {
     document.body.classList.add('loaded');
     const header = document.querySelector('.site-header');
     const html = document.documentElement;
-
+    
+    // Call the footer loader: This fetches the footer and injects it.
+    loadComponent(document.body, 'footer.html', 'beforeend'); 
+    
     // 1. Theme Toggle
     const toggle = document.querySelector('.theme-toggle');
     const saved = localStorage.getItem('theme');
@@ -76,96 +121,64 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('theme', next);
     });
 
-    // 2. SMART MENU LOADER — Tries multiple paths
-    if (header && !header.querySelector('.hamburger')) {
+    // 2. MENU LOADER: Use dynamic loading for single-file maintenance
+    if (header) {
+        // We replicate the loadComponent logic here specifically for the menu
+        // so we can bind the MobileMenu class and activate links *after* content loads.
+        const componentName = 'menu.html';
+        const targetElement = header;
+        const position = 'afterbegin';
         const possiblePaths = [
-            '/menu.html',
-            '../../menu.html',
-            '../menu.html',
-            'menu.html',
-            '/menu.html',
-            '../../../menu.html'
+            `/${componentName}`,
+            `../${componentName}`,
+            `../../${componentName}`,
+            componentName
         ];
 
         let loaded = false;
-        let attempts = 0;
 
-        const tryLoad = (path) => {
-            if (loaded)
-                return;
-            attempts++;
-            console.log(`Trying menu path: ${path}`);
+        const tryLoadMenu = (path) => {
+            if (loaded) return;
 
             fetch(path)
-                    .then(response => {
-                        if (!response.ok)
-                            throw new Error(`HTTP ${response.status}`);
-                        return response.text();
-                    })
-                    .then(menuHTML => {
-                        if (loaded)
-                            return;
-                        loaded = true;
+                .then(response => {
+                    if (!response.ok) throw new Error(`HTTP ${response.status} for ${path}`);
+                    return response.text();
+                })
+                .then(html => {
+                    if (loaded) return;
+                    loaded = true;
+                    targetElement.insertAdjacentHTML(position, html);
+                    
+                    // --- SUCCESS HANDLER: INITIALIZE MENU AND HIGHLIGHT LINKS ---
+                    new MobileMenu();
 
-                        header.insertAdjacentHTML('afterbegin', menuHTML);
-                        console.log(`Menu loaded from: ${path}`);
-
-                        // Re-init menu
-                        new MobileMenu();
-
-                        // Auto-highlight active page
-                        const currentFile = location.pathname.split('/').pop() || 'index.html';
-                        document.querySelectorAll('#main-nav a').forEach(link => {
-                            const linkFile = link.getAttribute('href').split('/').pop();
-                            if (linkFile === currentFile) {
-                                link.classList.add('active');
-                            }
-                        });
-                    })
-                    .catch(err => {
-                        console.warn(`Failed: ${path}`, err);
-                        // Try next path
-                        const nextIndex = possiblePaths.indexOf(path) + 1;
-                        if (nextIndex < possiblePaths.length) {
-                            setTimeout(() => tryLoad(possiblePaths[nextIndex]), 100);
-                        } else if (!loaded) {
-                            console.error('All menu paths failed.');
-                            header.innerHTML = `
-                            <div style="
-                                background: #ff4444; 
-                                color: white; 
-                                padding: 1rem; 
-                                text-align: center; 
-                                font-weight: bold;
-                                border-radius: 8px;
-                                margin: 1rem;
-                            ">
-                                Menu failed to load. Check console.
-                            </div>`;
+                    // Auto-highlight active page
+                    const currentFile = location.pathname.split('/').pop() || 'index.html';
+                    document.querySelectorAll('#main-nav a').forEach(link => {
+                        const linkFile = link.getAttribute('href').split('/').pop();
+                        if (linkFile === currentFile) {
+                            link.classList.add('active');
                         }
                     });
+                    // -----------------------------------------------------------
+
+                })
+                .catch(err => {
+                    const nextIndex = possiblePaths.indexOf(path) + 1;
+                    if (nextIndex < possiblePaths.length) {
+                        tryLoadMenu(possiblePaths[nextIndex]);
+                    } else if (!loaded) {
+                        console.error(`All paths failed for ${componentName}.`);
+                    }
+                });
         };
 
         // Start trying
-        tryLoad(possiblePaths[0]);
+        tryLoadMenu(possiblePaths[0]);
 
-        // Fallback after 3 seconds
-        setTimeout(() => {
-            if (!loaded && header) {
-                header.innerHTML = `
-                    <div style="
-                        background: orange; 
-                        color: black; 
-                        padding: 1rem; 
-                        text-align: center; 
-                        font-weight: bold;
-                    ">
-                        Loading menu... (Check console)
-                    </div>`;
-            }
-        }, 3000);
     } else {
-        // Menu already in HTML
+        // Fallback if the header is completely missing
         new MobileMenu();
     }
 });
