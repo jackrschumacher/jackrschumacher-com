@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 2. SMART MENU LOADER — Tries multiple paths
     if (header && !header.querySelector('.hamburger')) {
         const possiblePaths = [
-            '/website/menu.html',
+            '/menu.html',
             '../../menu.html',
             '../menu.html',
             'menu.html',
