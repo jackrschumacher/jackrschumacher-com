@@ -3,9 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jack Schumacher</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" href="images/favicon.ico">
+        <title>Virtual Business card-Jack Schumacher</title>
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="icon" href="../images/favicon.ico">
         <script>
             (function () {
                 const html = document.documentElement;
@@ -20,28 +20,40 @@
     </head>
 
     <body>
-
+        <script src="../script.js" defer></script>
         <div class="loader-wrapper">
             <div class="loader"></div>
         </div>
-
         <div class="container">
+
             <header class="site-header"></header>
 
-
             <main>
-                <h1>Jack Schumacher</h1>
 
-                <section>
-                    <h2>Welcome</h2>
-                    <p>Explore the menu to view my projects, work samples, and contact info.</p>
-                </section>
+                <h1>Virtual Business Card</h1>
+                <p>Hello! I'm Jack Schumacher, a student at the University of Alabama in Huntsville. Below are my important links,contacts,projects and work experience.</p>
 
+                <h2>Contact me</h2>
                 <div class="button-group">
-                    <a href="other pages/projects.html" class="spaced-button">Projects</a>
-                    <a href="other pages/work samples.html" class="spaced-button">Work Samples</a>
-                    <a href="other pages/contact.html" class="spaced-button">Contact Me</a>
+                    <a href="../files/Jack Schumacher.vcf" download class="spaced-button">Add me to your contacts</a>
                 </div>
+
+                <p><strong>Personal Email:</strong> <a href="mailto:jackrschumacher@gmail.com">jackrschumacher@gmail.com</a></p>
+                <p><strong>University Email:</strong> <a href="mailto:js0342@uah.edu">js0342@uah.edu</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+12622192485">262-219-2485</a></p>
+
+                <h2>About me</h2>
+                <a href="about.html" class="spaced-button">My experience</a>
+                <a href="projects.html" class="spaced-button">My projects</a>
+                <a href="work samples.html" class="spaced-button">Work samples</a>
+
+                <h2>My Links</h2>
+                <div class="button-group">
+                    <a href="https://www.linkedin.com/in/jackrschumacher/" target="_blank" class="spaced-button">LinkedIn</a>
+                    <a href="https://github.com/jackrschumacher" target="_blank" class="spaced-button">GitHub</a>
+                </div>
+
+
             </main>
 
         </div>
@@ -61,7 +73,6 @@
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
             </svg>
         </button>
-        <!-- Load JS after HTML -->
-        <script src="script.js" defer></script>
+
     </body>
 </html>
