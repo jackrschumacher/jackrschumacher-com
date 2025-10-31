@@ -135,7 +135,8 @@ body {
     cursor: pointer;
     width: 44px;
     height: 44px;
-    align-self: flex-start;
+    margin-left: auto;
+    margin-right: 0.5rem;
 }
 
 .hamburger-line {
@@ -184,6 +185,7 @@ body {
         display:flex;
         align-items: center;
         min-height: 50px;
+        border-radius: 0 0 16px 16px;
     }
 
     .main-nav {
@@ -192,11 +194,11 @@ body {
         left: 0;
         width: 100%;
         background: var(--nav-bg);
-        border-radius: 0 0 8px 8px;
+        border-radius: 0 0 16px 16px;
         transform: translateY(-100%);
         transition: transform 0.3s ease;
         z-index: 999;
-        box-shadow: 0 4px 6px var(--shadow);
+        /*box-shadow: 0 4px 6px var(--shadow);*/
         padding: 4.5rem 1rem 1rem;
         box-sizing: border-box;
     }
@@ -211,6 +213,7 @@ body {
         padding: 0;
         display: flex;
         flex-direction: column;
+        
     }
 
     .main-nav li {
@@ -218,6 +221,7 @@ body {
     }
 
     .main-nav a {
+        border-radius: 8px 8px;
         display: block;
         padding: 1rem;
         color: var(--nav-text);
@@ -241,8 +245,8 @@ body {
         content: '';
         position: fixed;
         inset: 0;
-        background: rgba(0,0,0,0.3);
-        backdrop-filter: blur(4px);
+        /*background: rgba(0,0,0,0.3);*/
+        /*backdrop-filter: blur(4px);*/
         z-index: -1;
     }
 
@@ -250,7 +254,7 @@ body {
     .main-nav .close-nav {
         position: absolute;
         top: 1rem;
-        right: 4rem;
+        right: 1rem;
         background: rgba(255,255,255,0.2);
         border: none;
         border-radius: 50%;
@@ -304,7 +308,7 @@ body {
     .site-header {
         position: static;
         max-width: 1200px;
-        margin: 0.5rem auto;
+        margin: 0 auto;
         padding: 0 2rem;
         border-radius: 16px;
         overflow: visible;
@@ -505,12 +509,14 @@ a:hover {
 .gh-stats{
     display: flex;
     gap:0.5%;
+    flex-wrap: wrap;
 
 }
 .gh-stats a{
     margin:0;
     padding:0;
     display:block;
+    
 }
 
 /* ========================================
