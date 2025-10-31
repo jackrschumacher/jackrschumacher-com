@@ -234,6 +234,7 @@ body {
     .main-nav a:hover {
         background: var(--nav-hover);
         color: var(--nav-text);
+        
     }
 
     main {
@@ -348,6 +349,7 @@ body {
         color: var(--nav-text);
         font-weight: bold;
         text-decoration: none;
+        border-radius: 8px 8px;
         transition: background 0.2s ease;
     }
 
