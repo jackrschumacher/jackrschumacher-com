@@ -59,27 +59,30 @@ const loadComponent = (targetElement, componentName, position, callback = () => 
     let loaded = false;
 
     const tryLoad = (path) => {
-        if (loaded) return;
+        if (loaded)
+            return;
 
         fetch(path)
-            .then(response => {
-                if (!response.ok) throw new Error(`HTTP ${response.status} for ${path}`);
-                return response.text();
-            })
-            .then(html => {
-                if (loaded) return;
-                loaded = true;
-                targetElement.insertAdjacentHTML(position, html);
-                callback(); // <<< NEW: Execute callback IMMEDIATELY after inserting HTML
-            })
-            .catch(err => {
-                const nextIndex = possiblePaths.indexOf(path) + 1;
-                if (nextIndex < possiblePaths.length) {
-                    tryLoad(possiblePaths[nextIndex]);
-                } else if (!loaded) {
-                    console.error(`All paths failed for ${componentName}.`);
-                }
-            });
+                .then(response => {
+                    if (!response.ok)
+                        throw new Error(`HTTP ${response.status} for ${path}`);
+                    return response.text();
+                })
+                .then(html => {
+                    if (loaded)
+                        return;
+                    loaded = true;
+                    targetElement.insertAdjacentHTML(position, html);
+                    callback(); // <<< NEW: Execute callback IMMEDIATELY after inserting HTML
+                })
+                .catch(err => {
+                    const nextIndex = possiblePaths.indexOf(path) + 1;
+                    if (nextIndex < possiblePaths.length) {
+                        tryLoad(possiblePaths[nextIndex]);
+                    } else if (!loaded) {
+                        console.error(`All paths failed for ${componentName}.`);
+                    }
+                });
     };
 
     // Start trying with the first path
@@ -103,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.classList.add('loaded');
     const header = document.querySelector('.site-header');
     const html = document.documentElement;
-    
+
     // Call the footer loader: This fetches the footer and injects it.
     // MODIFIED: Added callback function to run year logic
     loadComponent(document.body, 'footer.html', 'beforeend', () => {
@@ -112,8 +115,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (yearSpan) {
             yearSpan.textContent = new Date().getFullYear();
         }
-    }); 
-    
+    });
+
     // 1. Theme Toggle
     const toggle = document.querySelector('.theme-toggle');
     const saved = localStorage.getItem('theme');
@@ -147,40 +150,43 @@ document.addEventListener('DOMContentLoaded', () => {
         let loaded = false;
 
         const tryLoadMenu = (path) => {
-            if (loaded) return;
+            if (loaded)
+                return;
 
             fetch(path)
-                .then(response => {
-                    if (!response.ok) throw new Error(`HTTP ${response.status} for ${path}`);
-                    return response.text();
-                })
-                .then(html => {
-                    if (loaded) return;
-                    loaded = true;
-                    targetElement.insertAdjacentHTML(position, html);
-                    
-                    // --- SUCCESS HANDLER: INITIALIZE MENU AND HIGHLIGHT LINKS ---
-                    new MobileMenu();
+                    .then(response => {
+                        if (!response.ok)
+                            throw new Error(`HTTP ${response.status} for ${path}`);
+                        return response.text();
+                    })
+                    .then(html => {
+                        if (loaded)
+                            return;
+                        loaded = true;
+                        targetElement.insertAdjacentHTML(position, html);
 
-                    // Auto-highlight active page
-                    const currentFile = location.pathname.split('/').pop() || 'index.html';
-                    document.querySelectorAll('#main-nav a').forEach(link => {
-                        const linkFile = link.getAttribute('href').split('/').pop();
-                        if (linkFile === currentFile) {
-                            link.classList.add('active');
+                        // --- SUCCESS HANDLER: INITIALIZE MENU AND HIGHLIGHT LINKS ---
+                        new MobileMenu();
+
+                        // Auto-highlight active page
+                        const currentFile = location.pathname.split('/').pop() || 'index.html';
+                        document.querySelectorAll('#main-nav a').forEach(link => {
+                            const linkFile = link.getAttribute('href').split('/').pop();
+                            if (linkFile === currentFile) {
+                                link.classList.add('active');
+                            }
+                        });
+                        // -----------------------------------------------------------
+
+                    })
+                    .catch(err => {
+                        const nextIndex = possiblePaths.indexOf(path) + 1;
+                        if (nextIndex < possiblePaths.length) {
+                            tryLoadMenu(possiblePaths[nextIndex]);
+                        } else if (!loaded) {
+                            console.error(`All paths failed for ${componentName}.`);
                         }
                     });
-                    // -----------------------------------------------------------
-
-                })
-                .catch(err => {
-                    const nextIndex = possiblePaths.indexOf(path) + 1;
-                    if (nextIndex < possiblePaths.length) {
-                        tryLoadMenu(possiblePaths[nextIndex]);
-                    } else if (!loaded) {
-                        console.error(`All paths failed for ${componentName}.`);
-                    }
-                });
         };
 
         // Start trying
