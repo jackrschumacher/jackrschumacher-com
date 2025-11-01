@@ -586,7 +586,7 @@ a:hover {
     display: flex;
     gap:0.5%;
     flex-wrap: wrap;
-    justify-content: center; /* Center cards on desktop */
+    justify-content: left; /* Center cards on desktop */
 }
 .gh-stats a{
     margin:0;
