@@ -314,6 +314,7 @@ body {
         border-radius: 16px;
         overflow: visible;
         box-shadow: 0 4px 15px var(--shadow);
+        min-height: 50px;
     }
 
     .main-nav {
