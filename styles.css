@@ -694,7 +694,7 @@ a:hover {
 
 /* Ensure the copyright line has a class to be targeted */
 .site-footer .copyright {
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     text-align: center;
     width: 100%; /* Ensure it spans full width */
 }
