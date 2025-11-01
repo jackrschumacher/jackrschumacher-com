@@ -482,6 +482,19 @@ section {
     margin: 1rem 0;
 }
 
+.button-group-404{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.button-group-404 .spaced-button{
+    display: block;
+    width: 50%;
+    max-width: 200px;
+    box-sizing: border-box;
+}
+
 .spaced-button {
     display: inline-block;
     padding: 0.5rem 1rem;
@@ -520,6 +533,21 @@ a:hover {
     display:block;
 
 }
+
+.page-not-found{
+    color: red;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.page-not-found-text {
+    /*font-size: 1.5rem;*/
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
 
 /* ========================================
    7. UTILITIES
