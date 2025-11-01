@@ -181,7 +181,7 @@ body {
         box-sizing: border-box;
         overflow-x: hidden;
         min-height: 80px; /* NEW: Reserves a safe minimum height to prevent layout shift */
-        
+
         display:flex;
         align-items: center;
         min-height: 50px;
@@ -213,7 +213,7 @@ body {
         padding: 0;
         display: flex;
         flex-direction: column;
-        
+
     }
 
     .main-nav li {
@@ -234,7 +234,7 @@ body {
     .main-nav a:hover {
         background: var(--nav-hover);
         color: var(--nav-text);
-        
+
     }
 
     main {
@@ -518,7 +518,7 @@ a:hover {
     margin:0;
     padding:0;
     display:block;
-    
+
 }
 
 /* ========================================
@@ -531,12 +531,12 @@ a:hover {
 .site-footer {
     position: static;
     width: 100%;
-    
+
     /* Ensure the footer's own background doesn't interfere */
     background: var(--nav-bg);
     color: var(--nav-text);
     text-align: center;
-   
+
     padding: 0.5rem;
     box-sizing: border-box;
     /* Optional: Hide the footer until JS injects content to avoid a flicker */
