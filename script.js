@@ -103,7 +103,7 @@ window.addEventListener('resize', () => {
 
 // === MAIN INIT ===
 document.addEventListener('DOMContentLoaded', () => {
-    document.body.classList.add('loaded');
+
     const header = document.querySelector('.site-header');
     const html = document.documentElement;
 
@@ -176,6 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 link.classList.add('active');
                             }
                         });
+                        document.body.classList.add('loaded');
                         // -----------------------------------------------------------
 
                     })
