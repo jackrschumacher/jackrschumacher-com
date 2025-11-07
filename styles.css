@@ -714,9 +714,9 @@ body.body-no-scroll {
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 80vh;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    min-height: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 12rem;
 }
 @media (min-width:768px){
     .links-container{
