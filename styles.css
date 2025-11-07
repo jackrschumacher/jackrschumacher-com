@@ -711,7 +711,7 @@ body.body-no-scroll {
 .links-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
     min-height: auto;
