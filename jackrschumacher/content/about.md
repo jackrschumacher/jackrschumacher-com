@@ -17,11 +17,6 @@ About
 
 I am a Sophmore at the **University of Alabama in Huntsville**, pursuing a degree in Business Information Systems with a focus in cybersecurity.
 
-Featured Work
--------------
-
-[Jack Schumacher Resume 2025](../files/Jack Schumacher resume 2025.pdf) [FANUC 200iD Lesson Book (Technical Writing)](../files/Jack Schumacher Technical writing example 2022.pdf)
-
 Experience
 ----------
 
