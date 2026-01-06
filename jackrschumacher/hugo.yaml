@@ -9,7 +9,7 @@ markup:
     renderer:
       unsafe: true
 params:
-  favicon: /favicon.ico
+  favicon: /favicon-32x32.png
   navbar:
     displayLogo: false
     logo:
