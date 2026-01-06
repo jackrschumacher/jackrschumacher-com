@@ -1,5 +1,5 @@
 baseURL: https://www.jackrschumacher.com/
-languageCode: en-us
+languageCode: "en"
 title: Jack Schumacher
 module:
   imports:
@@ -16,6 +16,21 @@ params:
       path: /favicon-32x32.png    # Path relative to 'static'
       width: 40                  # Adjust size as needed
       height: 20
+  banner:
+    key: "announcement"
+    message: This site has recently been migrated to Hugo. Report issues [here](https://github.com/jackrschumacher/website/issues)
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: false
+    width: normal
+  blog:
+    list:
+      displayTags: true
+  toc:
+    displayTags: true
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
 menu:
   main:
     - name: Home
@@ -37,6 +52,7 @@ menu:
     - name: Blog
       pageRef: /blog
       weight: 60
+      
 
     - name: Contact
       pageRef: /contact
