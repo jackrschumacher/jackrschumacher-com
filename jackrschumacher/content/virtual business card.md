@@ -2,35 +2,47 @@
 title: "Virtual Business Card"
 date: 2025-01-05
 draft: false
+layout: "full"
 ---
-Virtual Business Card
-=====================
 
-Hello! I'm Jack Schumacher, a student at the University of Alabama in Huntsville. Below are my important links,contacts,projects and work experience.
+<div style="max-width: 500px; margin: 0 auto; text-align: center; font-family: sans-serif;">
 
-Contact me
-----------
+  <h1 style="margin-bottom: 0.5rem;">Jack Schumacher</h1>
+  <p style="color: #666; margin-top: 0;">Student at UAH</p>
 
-<br>
+  <br>
 
-<a href="/files/Jack%20Schumacher.vcf" download="Jack Schumacher.vcf" style="background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;">
-  📥 Add me to your contacts
-</a>
+  <a href="/files/Jack%20Schumacher.vcf" download="Jack Schumacher.vcf" style="background-color: #007bff; color: white; padding: 15px 30px; text-decoration: none; border-radius: 50px; font-weight: bold; display: inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    📥 Save My Contact
+  </a>
 
-<br><br>
+  <br><br>
 
-**Personal Email:** [jackrschumacher@gmail.com](mailto:jackrschumacher@gmail.com)
+  <div style="text-align: left; background: #f8f9fa; padding: 20px; border-radius: 12px; border: 1px solid #e9ecef;">
+    <p style="margin: 10px 0;"><strong>📧 Personal:</strong> <a href="mailto:jackrschumacher@gmail.com">jackrschumacher@gmail.com</a></p>
+    <p style="margin: 10px 0;"><strong>🎓 School:</strong> <a href="mailto:js0342@uah.edu">js0342@uah.edu</a></p>
+    <p style="margin: 10px 0;"><strong>📱 Phone:</strong> <a href="tel:+12622192485">262-219-2485</a></p>
+  </div>
 
-**University Email:** [js0342@uah.edu](mailto:js0342@uah.edu)
+  <br>
 
-**Phone:** [262-219-2485](tel:+12622192485)
+  <div style="display: flex; flex-direction: column; gap: 10px;">
+    <a href="/about" style="background: #333; color: white; padding: 12px; border-radius: 8px; text-decoration: none; display: block;">
+      My Experience
+    </a>
+    <a href="/projects" style="background: #333; color: white; padding: 12px; border-radius: 8px; text-decoration: none; display: block;">
+      My Projects
+    </a>
+    <a href="/portfolio" style="background: #333; color: white; padding: 12px; border-radius: 8px; text-decoration: none; display: block;">
+      Work Samples
+    </a>
+  </div>
 
-About me
---------
+  <br>
 
-[My experience](about.html) [My projects](projects.html) [Work samples](work samples.html)
+  <div style="font-size: 1.5rem; display: flex; justify-content: center; gap: 20px;">
+    <a href="https://linkedin.com/in/jackrschumacher" target="_blank" style="text-decoration: none;">🔗 LinkedIn</a>
+    <a href="https://github.com/jackrschumacher" target="_blank" style="text-decoration: none;">💻 GitHub</a>
+  </div>
 
-My Links
---------
-
-[LinkedIn](https://www.linkedin.com/in/jackrschumacher/) [GitHub](https://github.com/jackrschumacher)
+</div>
