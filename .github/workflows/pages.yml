@@ -51,17 +51,19 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Build with Hugo
         env:
-          # For maximum backward compatibility with Hugo modules
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
-          HUGO_ENV: production
         run: |
           hugo \
-            --gc --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --gc \
+            --minify \
+            --source jackrschumacher \
+            --baseURL "https://www.jackrschumacher.com/"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: ./jackrschumacher/public
 
   # Deployment job
   deploy:
