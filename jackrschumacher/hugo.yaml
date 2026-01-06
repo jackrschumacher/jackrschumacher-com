@@ -9,12 +9,11 @@ markup:
     renderer:
       unsafe: true
 params:
-  favicon: images/favicon.ico
+  favicon: /favicon.ico
   navbar:
-    displayLogo: true
+    displayLogo: false
     logo:
-      path: images/favicon-32x32.png    # Path relative to 'static'
-      # dark: images/logo-dark.svg  # Optional: Different logo for dark mode
+      path: /favicon-32x32.png    # Path relative to 'static'
       width: 40                  # Adjust size as needed
       height: 20
 menu:
