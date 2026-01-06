@@ -1,6 +1,6 @@
 # Website
 ## Deployment Status
-[![pages-build-deployment](https://github.com/jackrschumacher/website/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/jackrschumacher/website/actions/workflows/pages/pages-build-deployment)
+[![Deploy Hugo site to Pages](https://github.com/jackrschumacher/website/actions/workflows/pages.yml/badge.svg)](https://github.com/jackrschumacher/website/actions/workflows/pages.yml)
 
 ## About
 A personal website for showcasing my projects and more
@@ -11,7 +11,6 @@ A personal website for showcasing my projects and more
 * Add files to work samples (in progress)
 * Add more projects
   * Embed videos for some projects
-
 
 
 
