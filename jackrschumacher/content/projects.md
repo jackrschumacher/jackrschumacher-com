@@ -1,23 +1,40 @@
 ---
 title: "Projects"
-date: 2025-01-05
+date: 2025-01-06
 draft: false
 ---
-All My Projects
-===============
 
-This page links all my public GitHub repositories with associated files and documentation.
+
+This page is a list of all projects that I have been involved in or have contributed to significantly
+
+## Personal projects
+
+- [website](https://github.com/jackrschumacher/website)
+
+## UAH Projects
 
 *   [UAH-IS](https://github.com/jackrschumacher/UAH-IS)
-*   [UAH-IS-Notes](https://github.com/jackrschumacher/UAH-IS-Notes)
+
+### IS 310
+
 *   [UAH-IS-310-Python-Final](https://github.com/jackrschumacher/UAH-IS-310-Python-Final)
-*   [TM-Optimized](https://github.com/jackrschumacher/TM-Optimized)
-*   [website](https://github.com/jackrschumacher/website)
-*   [ASTRA-Notes](https://github.com/jackrschumacher/ASTRA-Notes)
-*   [SHC-RoverTeam-3](https://github.com/jackrschumacher/SHC-RoverTeam-3)
-*   [PicoMotorTest](https://github.com/jackrschumacher/PicoMotorTest)
+*   [UAH-IS-310-Bash-Final](https://github.com/jackrschumacher/UAH-IS-310-Bash-Final)
+
+## SHC projects
+
+### Two-Month
+
+- [TM-Optimized](https://github.com/jackrschumacher/TM-Optimized)
+- [SHC-RoverTeam-3](https://github.com/jackrschumacher/SHC-RoverTeam-3)
+- [PicoMotorTest](https://github.com/jackrschumacher/PicoMotorTest)
+
+### ASTRA
+
+- [ASTRA-Notes](https://github.com/jackrschumacher/ASTRA-Notes)
+
+## FRC projects
+
 *   [OverrunLogger (Public Archive)](https://github.com/jackrschumacher/OverrunLogger)
 *   [RomiTraining2023 (Public Archive)](https://github.com/jackrschumacher/RomiTraining2023)
 *   [2023RobotLED (Public Archive)](https://github.com/jackrschumacher/2023RobotLED)
-*   [Hackathon-Project-2022 (Public Archive)](https://github.com/jackrschumacher/Hackathon-Project-2022)
 

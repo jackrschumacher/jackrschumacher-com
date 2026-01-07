@@ -3,9 +3,6 @@ title: "Changelog"
 date: 2025-01-05
 draft: false
 ---
-Changelog
-=========
-
 Latest Commits
 --------------
 
@@ -13,6 +10,8 @@ Latest Commits
 
 Updates
 -------
+
+- **1/6/26** — Formatting 
 
 *   **1/5/26** — Migrated to Hugo and the hextra theme, removed portfolio page as it was essentially a duplicate 
 *   **11/1/25** — Formatting updates, more consistent loading, added pages
