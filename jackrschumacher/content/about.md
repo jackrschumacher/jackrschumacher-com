@@ -83,7 +83,7 @@ Licenses & Certifications
 *   **Microsoft Word Introductory Badge** — Cengage Group, Dec 2024  
     [View](https://achievement.cengage.com/6932f20e-dee7-49c5-8b13-c27b962ca782#acc.3Ynxw4LS)
 *   **Cyber Skyline Spring 2024** — Cyber Skyline, Apr 2024  
-    [View PDF](../files/Cyber Skyline 2024 Report.pdf)
+    [View PDF](/files/Jack-Schumacher-Cyber-Skyline-Spring-2024.pdf)
 *   **IT Specialist: Databases** — Certiport, Jan 2024
 *   **Concepts of Entrepreneurship & Management** — ASK Business Institute, May 2023  
     [View](https://badges.mbaresearch.org/badges/7WhviLHia)
