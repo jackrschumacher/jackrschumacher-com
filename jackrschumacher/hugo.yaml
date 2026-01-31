@@ -9,11 +9,11 @@ markup:
     renderer:
       unsafe: true
 params:
-  favicon: /favicon-32x32.png
+  favicon: /favicon-96x96.png
   navbar:
     displayLogo: false
     logo:
-      path: /favicon-32x32.png    # Path relative to 'static'
+      path: /favicon-96x96.png    # Path relative to 'static'
       width: 40                  # Adjust size as needed
       height: 20
   banner:
