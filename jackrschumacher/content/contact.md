@@ -16,10 +16,14 @@ draft: false
 
   {{< cards cols = "1">}}
 
-    {{< card link="/files/Jack%20Schumacher.vcf" title="Add me to your contacts" icon="information-circle" >}}
+    {{< card link="/files/Jack%20Schumacher.vcf" title="Add me to your contacts" icon="identification" >}}
   {{< /cards >}}
 
 ## My Links
 
-* [LinkedIn](https://www.linkedin.com/in/jackrschumacher/)
-* [GitHub](https://github.com/jackrschumacher)
+{{< cards cols = "2">}}
+
+  {{< card link="www.linkedin.com/in/jackrschumacher/" title="LinkedIn" icon="briefcase" >}}
+
+{{< card link="www.github.com/jackrschumacher" title="GitHub" icon="cog" >}}{{< /cards >}}
+
