@@ -11,6 +11,7 @@ Latest Commits
 Updates
 -------
 
+- **1/31/26** - Updated about page and projects page
 - **1/6/26** — Formatting 
 
 *   **1/5/26** — Migrated to Hugo and the hextra theme, removed portfolio page as it was essentially a duplicate 
