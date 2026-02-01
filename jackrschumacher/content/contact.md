@@ -7,16 +7,17 @@ draft: false
 # Contact Information
 
 * **Personal Email:** [jackrschumacher@gmail.com](mailto:jackrschumacher@gmail.com)
+
 * **University Email:** [js0342@uah.edu](mailto:js0342@uah.edu)
+
 * **Phone:** [262-219-2485](tel:+12622192485)
 
-<br>
+  
 
-<a href="/files/Jack%20Schumacher.vcf" download="Jack Schumacher.vcf" style="background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;">
-  📥 Add me to your contacts
-</a>
+  {{< cards cols = "1">}}
 
-<br><br>
+    {{< card link="/files/Jack%20Schumacher.vcf" title="Add me to your contacts" icon="information-circle" >}}
+  {{< /cards >}}
 
 ## My Links
 

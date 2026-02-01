@@ -76,18 +76,16 @@ _September 2020 – June 2024_
 Licenses & Certifications
 -------------------------
 
-*   **Microsoft Excel Introductory Badge** — Cengage Group, Dec 2024  
-    [View](https://achievement.cengage.com/5250c7a3-05fa-4a07-9538-8a320f032772#acc.5ha7XxQm)
-*   **Microsoft PowerPoint Introductory Badge** — Cengage Group, Dec 2024  
-    [View](https://achievement.cengage.com/f12f141f-30e8-4305-a5e6-66a9575cda4a#acc.vwqZpVcD)
-*   **Microsoft Word Introductory Badge** — Cengage Group, Dec 2024  
-    [View](https://achievement.cengage.com/6932f20e-dee7-49c5-8b13-c27b962ca782#acc.3Ynxw4LS)
-*   **Cyber Skyline Spring 2024** — Cyber Skyline, Apr 2024  
-    [View PDF](/files/Jack-Schumacher-Cyber-Skyline-Spring-2024.pdf)
-*   **IT Specialist: Databases** — Certiport, Jan 2024
-*   **Concepts of Entrepreneurship & Management** — ASK Business Institute, May 2023  
-    [View](https://badges.mbaresearch.org/badges/7WhviLHia)
-*   **Autodesk Certified User** — Pearson, Jan 2022
+| **Certification name**                    | **Issuer**             | **Date issued** | **Documents**                                                |
+| :---------------------------------------- | :--------------------- | :-------------- | :----------------------------------------------------------- |
+| Microsoft Excel Introductory Badge        | Cengage Group          | Dec 2024        | [View](https://achievement.cengage.com/5250c7a3-05fa-4a07-9538-8a320f032772#acc.5ha7XxQm) |
+| Microsoft PowerPoint Introductory Badge   | Cengage Group          | Dec 2024        | [View](https://achievement.cengage.com/f12f141f-30e8-4305-a5e6-66a9575cda4a#acc.vwqZpVcD) |
+| Microsoft Word Introductory Badge         | Cengage Group          | Dec 2024        | [View](https://achievement.cengage.com/6932f20e-dee7-49c5-8b13-c27b962ca782#acc.3Ynxw4LS) |
+| Cyber Skyline Spring 2024                 | Cyber Skyline          | Apr 2024        | [View PDF](/files/Jack-Schumacher-Cyber-Skyline-Spring-2024.pdf) |
+| Concepts of Entrepreneurship & Management | ASK Business Institute | May 2023        | [View](https://badges.mbaresearch.org/badges/7WhviLHia)      |
+| Autodesk Certified User                   | Pearson                | Jan 2022        | N/A                                                          |
+
+
 
 Volunteering & Robotics
 -----------------------
@@ -111,7 +109,13 @@ Volunteering & Robotics
 Relevant Coursework
 -------------------
 
-**Mukwonago High School:**
+### University of Alabama in Huntsville
+
+- IS 146 - Computer Applications in Business
+- IS 301 - Information Systems in Organizations
+- IS 310- Advanced Programming
+
+### Mukwonago High School:
 
 *   AP Computer Science A
 *   AP Computer Science Principles
