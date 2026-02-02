@@ -8,7 +8,7 @@ Latest Commits
 
 {{< cards cols = "1">}}
 
-  {{< card link="www.github.com/jackrschumacher/website/commits/main/" title="View the latest commits on GitHub" icon="external-link" >}}
+  {{< card link="https://www.github.com/jackrschumacher/website/commits/main/" title="View the latest commits on GitHub" icon="external-link" >}}
 {{< /cards >}}
 
 

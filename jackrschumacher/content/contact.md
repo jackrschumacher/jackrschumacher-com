@@ -23,7 +23,7 @@ draft: false
 
 {{< cards cols = "2">}}
 
-  {{< card link="www.linkedin.com/in/jackrschumacher/" title="LinkedIn" icon="briefcase" >}}
+  {{< card link="https://www.linkedin.com/in/jackrschumacher/" title="LinkedIn" icon="briefcase" >}}
 
-{{< card link="www.github.com/jackrschumacher" title="GitHub" icon="cog" >}}{{< /cards >}}
+{{< card link="https://www.github.com/jackrschumacher" title="GitHub" icon="cog" >}}{{< /cards >}}
 
