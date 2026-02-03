@@ -89,7 +89,7 @@ Licenses & Certifications
 
 
 
-Other Experien
+Other Experience
 -----------------------
 
 ### FRC Team 930 – Mukwonago Robotics
