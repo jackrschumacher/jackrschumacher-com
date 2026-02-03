@@ -16,16 +16,25 @@ Latest Commits
 Updates
 -------
 
-- **1/31/26** — Updated about page, projects page, and added buttons
-- **1/6/26** — Formatting 
-- **1/5/26** — Migrated to Hugo and the hextra theme, removed portfolio page as it was essentially a duplicate 
-- **11/1/25** — Formatting updates, more consistent loading, added pages
-- **10/30/25** — Added a sitewide footer, fixed bugs
-- **10/29/25** — Improved menu navigation, site responsiveness, added theme switching
-- **10/28/25** — Refactoring and Mobile and Desktop optimization
-- **6/23/25** — Added details to about page, fixed formatting
-- **5/26/25** — Fixed spelling and layout issues
-- **4/17/25** — Added GitHub stats cards
-- **4/10/25** — Updated menu, added About + All Projects
-- **4/9/25** — Embedded files, updated styles
-- **4/9/25** — Created site, added pages
+{{% steps %}}
+
+#### 2/2/2026
+
+Updated changelog formatting, added a resume file, updated 404 page to show [UptimeRobot](https://stats.uptimerobot.com/1Ctp1MdrMI) link
+
+#### 1/31/2026
+
+Updated about page, projects page, and added buttons
+
+#### 1/6/2026 
+
+Formatting fixes
+
+#### 1/5/2026
+
+Migrated to Hugo and the [Hextra](https://themes.gohugo.io/themes/hextra/) theme, removed portfolio page as it was essentially a duplicate. All previous changelog entries have been removed as they dealt with a previous version of the site. 
+
+
+
+{{% /steps %}}
+

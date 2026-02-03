@@ -117,7 +117,7 @@ Relevant Coursework
 - IS 301 - Information Systems in Organizations
 - IS 310- Advanced Programming
 
-### Mukwonago High School:
+### Mukwonago High School
 
 *   AP Computer Science A
 *   AP Computer Science Principles
