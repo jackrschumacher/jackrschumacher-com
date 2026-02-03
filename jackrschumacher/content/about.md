@@ -5,17 +5,19 @@ draft: false
 ---
 
 
-This page is a backup of my LinkedIn profile — view the original [**here**](https://www.linkedin.com/in/jackrschumacher/).
 
 Jack Schumacher
 ===============
 
-College student pursuing a degree in **Business Information Systems** with a focus in **Cybersecurity**.
+I am a Sophomore at the University of Alabama in Huntsville, pursuing a degree in Business Information Systems with a focus in cybersecurity.
 
-About
------
+{{< cards cols = "2">}}
 
-I am a Sophmore at the **University of Alabama in Huntsville**, pursuing a degree in Business Information Systems with a focus in cybersecurity.
+{{< card link="/files/Jack-Schumacher-Resume-2-26.pdf" title="My Resume" icon="document-text" >}}
+
+  {{< card link="https://www.linkedin.com/in/jackrschumacher/" title="LinkedIn" icon="briefcase" >}}
+
+{{< /cards >}}
 
 Experience
 ----------
@@ -87,7 +89,7 @@ Licenses & Certifications
 
 
 
-Volunteering & Robotics
+Other Experien
 -----------------------
 
 ### FRC Team 930 – Mukwonago Robotics
