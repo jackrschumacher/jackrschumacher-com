@@ -24,9 +24,12 @@ Experience
 
 ### Associate
 
-**Marcus Theaters** — _June 2025–August 2025_
+**Marcus Theaters** — _June 2025–August 2025_ 
 
-*   Assisted guests with theater-related questions and concerns.
+*   Assisted guests with theater-related questions and concerns
+*   Cleaned theaters and the building as a whole, prepared concession items for guests
+
+**Skills:** Team building, Customer service, 
 
 ### MetaSpace 511 Innovator in Residence Intern
 
@@ -38,13 +41,13 @@ Experience
 *   Provided Tech Tutor sessions for adults
 *   Trained patrons on laser cutter, 3D printers, Cricut
 
-**Skills:** CAD, Team Building, IT Operations, Information Technology
+**Skills:** CAD, Team Building, IT Operations, Information Technology, Customer service
 
 ### Software Engineer Intern
 
 **Textron Systems (Medical Numerics)** — _October 2023–January 2024_
 
-Developed software platform for next-gen GE MRI scanners using **Angular, JavaScript, Node.js**. Gained foundational **Linux** skills.
+Developed software platform for next-gen GE MRI scanners using Angular, JavaScript, Node.js. Gained foundational Linux skills.
 
 **Skills:** Angular, Node.js, Linux, JavaScript
 
@@ -65,7 +68,7 @@ Education
 
 **Bachelor of Science, Business Information Systems**
 
-_August 2024 – May 2028_ — **Freshman**
+_August 2024 – May 2028_ — Sophomore
 
 ### Mukwonago High School
 
@@ -78,14 +81,14 @@ _September 2020 – June 2024_
 Licenses & Certifications
 -------------------------
 
-| **Certification name**                    | **Issuer**             | **Date issued** | **Documents**                                                |
-| :---------------------------------------- | :--------------------- | :-------------- | :----------------------------------------------------------- |
-| Microsoft Excel Introductory Badge        | Cengage Group          | Dec 2024        | [View](https://achievement.cengage.com/5250c7a3-05fa-4a07-9538-8a320f032772#acc.5ha7XxQm) |
-| Microsoft PowerPoint Introductory Badge   | Cengage Group          | Dec 2024        | [View](https://achievement.cengage.com/f12f141f-30e8-4305-a5e6-66a9575cda4a#acc.vwqZpVcD) |
-| Microsoft Word Introductory Badge         | Cengage Group          | Dec 2024        | [View](https://achievement.cengage.com/6932f20e-dee7-49c5-8b13-c27b962ca782#acc.3Ynxw4LS) |
-| Cyber Skyline Spring 2024                 | Cyber Skyline          | Apr 2024        | [View PDF](/files/Jack-Schumacher-Cyber-Skyline-Spring-2024.pdf) |
-| Concepts of Entrepreneurship & Management | ASK Business Institute | May 2023        | [View](https://badges.mbaresearch.org/badges/7WhviLHia)      |
-| Autodesk Certified User                   | Pearson                | Jan 2022        | N/A                                                          |
+| **Certification name**                               | **Issuer**             | **Date issued** | **Documents**                                                |
+| :--------------------------------------------------- | :--------------------- | :-------------- | :----------------------------------------------------------- |
+| Microsoft Excel Introductory Badge                   | Cengage Group          | Dec 2024        | [View](https://achievement.cengage.com/5250c7a3-05fa-4a07-9538-8a320f032772#acc.5ha7XxQm) |
+| Microsoft PowerPoint Introductory Badge              | Cengage Group          | Dec 2024        | [View](https://achievement.cengage.com/f12f141f-30e8-4305-a5e6-66a9575cda4a#acc.vwqZpVcD) |
+| Microsoft Word Introductory Badge                    | Cengage Group          | Dec 2024        | [View](https://achievement.cengage.com/6932f20e-dee7-49c5-8b13-c27b962ca782#acc.3Ynxw4LS) |
+| Cyber Skyline Spring 2024 (Team and Individual game) | Cyber Skyline          | Apr 2024        | [Individual Game PDF](/files/Jack-Schumacher-Cyber-Skyline-Spring-2024.pdf) |
+| Concepts of Entrepreneurship & Management            | ASK Business Institute | May 2023        | [View](https://badges.mbaresearch.org/badges/7WhviLHia)      |
+| Autodesk Certified User                              | Pearson                | Jan 2022        | N/A                                                          |
 
 
 
