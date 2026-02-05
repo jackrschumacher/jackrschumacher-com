@@ -29,7 +29,7 @@ Experience
 *   Assisted guests with theater-related questions and concerns
 *   Cleaned theaters and the building as a whole, prepared concession items for guests
 
-**Skills:** Team building, Customer service, 
+**Skills:** Team building, Customer service
 
 ### MetaSpace 511 Innovator in Residence Intern
 
