@@ -18,6 +18,10 @@ Updates
 
 {{% steps %}}
 
+#### 2/6/2026
+
+Moved hosting to Cloudflare pages for improved performance 
+
 #### 2/2/2026
 
 Updated changelog formatting, added a resume file, updated 404 page to show [UptimeRobot](https://stats.uptimerobot.com/1Ctp1MdrMI) link
