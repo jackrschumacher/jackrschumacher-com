@@ -61,6 +61,7 @@ main() {
 
   # Build the site
   echo "Building the site..."
+  cd jackrschumacher
   hugo --gc --minify
 
 }
