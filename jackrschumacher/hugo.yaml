@@ -41,22 +41,24 @@ menu:
       pageRef: /about
       weight: 20
 
+    - name: Contact
+      pageRef: /contact
+      weight: 30
+
     - name: Projects
       pageRef: /projects
-      weight: 30
+      weight: 40
 
     - name: Changelog
       pageRef: /changelog
       weight: 50
 
-    - name: Blog
-      pageRef: /blog
-      weight: 60
+    # - name: Blog
+    #   pageRef: /blog
+    #   weight: 60
       
 
-    - name: Contact
-      pageRef: /contact
-      weight: 70
+   
 
     # --- Hextra Special Features ---
     # These add the Search bar and Sun/Moon icon to the right side
