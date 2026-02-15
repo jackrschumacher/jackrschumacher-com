@@ -9,8 +9,9 @@ This page is a list of all projects that I have been involved in or have contrib
 
 ## Personal projects
 
-- [jackrschumacher-com](https://www.jackrschumacher.com)
-- [links.jackrschumacher.com](https://links.jackrschumacher.com)
+- [jackrschumacher-com GitHub](https://github.com/jackrschumacher/jackrschumacher-com) - [Site](https://www.jackrschumacher.com)
+
+- [links GitHub](https://github.com/jackrschumacher/links) - [links.jackrschumacher.com](https://links.jackrschumacher.com)
 
 ## UAH Projects
 
@@ -31,7 +32,7 @@ This page is a list of all projects that I have been involved in or have contrib
 
 ### ASTRA
 
-- [ASTRA-Notes](https://github.com/jackrschumacher/ASTRA-Notes)
+- [ASTRA-Notes GitHub](https://github.com/jackrschumacher/ASTRA-Notes) - [Site](https://astra.jackrschumacher.com)
 - [biosensor-embedded](https://github.com/SHC-ASTRA/biosensor-embedded) - [Citadel-2026](https://github.com/SHC-ASTRA/biosensor-embedded/tree/citadel-2026)
   - I developed the embedded code for ASTRA's Citadel module
 
