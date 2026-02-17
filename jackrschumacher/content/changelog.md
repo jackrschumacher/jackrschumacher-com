@@ -18,13 +18,17 @@ Updates
 
 {{% steps %}}
 
+#### 2/17/2026
+
+Updated portfolio, removed migration banner, updated projects to use [badges](https://imfing.github.io/hextra/docs/guide/shortcodes/others/#badge)
+
 #### 2/6/2026
 
-Moved hosting to Cloudflare pages for improved performance 
+Moved hosting to Cloudflare workers for improved performance 
 
 #### 2/2/2026
 
-Updated changelog formatting, added a resume file, updated 404 page to show [UptimeRobot](https://stats.uptimerobot.com/1Ctp1MdrMI) link
+Updated changelog formatting, added a resume file, updated 404 page to show [UptimeRobot](https://stats.uptimerobot.com/1Ctp1MdrMI/802274866) link
 
 #### 1/31/2026
 

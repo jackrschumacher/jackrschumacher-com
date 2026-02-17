@@ -16,9 +16,9 @@ params:
       path: /favicon-96x96.png    # Path relative to 'static'
       width: 25                  # Adjust size as needed
       height: 25
-  banner:
-    key: "announcement"
-    message: This site has recently been migrated to Hugo. Report issues [here](https://github.com/jackrschumacher/website/issues)
+  # banner:
+    # key: "announcement"
+    # message: This site has recently been migrated to Hugo. Report issues [here](https://github.com/jackrschumacher/website/issues)
   footer:
     enable: true
     displayCopyright: true

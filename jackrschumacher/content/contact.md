@@ -8,6 +8,8 @@ draft: false
 
 * **Personal Email:** [contact@jackrschumacher.com](mailto:contact@jackrschumacher.com)
 
+  * **Job applications:** jobs@jackrschumacher.com
+
 * **University Email:** [school@jackrschumacher.com](mailto:school@jackrschumacher.com)
 
   [ ]( )
