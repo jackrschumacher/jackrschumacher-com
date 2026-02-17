@@ -8,6 +8,8 @@ draft: false
 
 * **Personal Email:** [jackrschumacher@gmail.com](mailto:jackrschumacher@gmail.com)
 
+  * **Job applications:** jobs@jackrschumacher.com
+
 * **University Email:** [js0342@uah.edu](mailto:js0342@uah.edu)
 
 * **Phone:** [262-219-2485](tel:+12622192485)
