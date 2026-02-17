@@ -15,7 +15,7 @@ This page is a list of all projects that I have been involved in or have contrib
 
 <br>
 
-{{< badge content="jackrschumacher-com GitHub" link="(https://github.com/jackrschumacher/jackrschumacher-com" icon="github" >}} 
+{{< badge content="jackrschumacher-com GitHub" link="https://github.com/jackrschumacher/jackrschumacher-com" icon="github" >}} 
 
 - My main website that contains my projects, contact information and an expanded version of my resume and work history
 
