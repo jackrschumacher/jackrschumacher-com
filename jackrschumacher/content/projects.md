@@ -9,9 +9,31 @@ This page is a list of all projects that I have been involved in or have contrib
 
 ## Personal projects
 
-- [jackrschumacher-com GitHub](https://github.com/jackrschumacher/jackrschumacher-com) | [Site](https://www.jackrschumacher.com)
+### Websites
 
-- [links GitHub](https://github.com/jackrschumacher/links) | [Site](https://links.jackrschumacher.com)
+#### [jackrschumacher.com](https://www.jackrschumacher.com)
+
+<br>
+
+{{< badge content="jackrschumacher-com GitHub" link="(https://github.com/jackrschumacher/jackrschumacher-com" icon="github" >}} 
+
+- My main website that contains my projects, contact information and an expanded version of my resume and work history
+
+#### [links.jackrschumacher.com](https://links.jackrschumacher.com)
+
+<br>
+
+{{< badge content="links GitHub" link="https://github.com/jackrschumacher/links" icon="github" >}} 
+
+- A simple site that serves as a collection of links 
+
+#### [cyber.jackrschumacher.com](https://cyber.jackrschumacher.com)
+
+<br>
+
+{{< badge content="cyber-notes GitHub" link="https://github.com/jackrschumacher/cyber-notes" icon="github" >}} 
+
+- A collection of cybersecurity notes,
 
 ## UAH Projects
 
