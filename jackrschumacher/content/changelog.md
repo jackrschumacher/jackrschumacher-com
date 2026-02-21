@@ -18,6 +18,10 @@ Updates
 
 {{% steps %}}
 
+#### 2/20/2026
+
+Bumped Hextra version to [0.12](https://github.com/imfing/hextra/releases/tag/v0.12.0) and enabled image zoom
+
 #### 2/17/2026
 
 Updated portfolio, removed migration banner, updated projects to use [badges](https://imfing.github.io/hextra/docs/guide/shortcodes/others/#badge)

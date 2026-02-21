@@ -8,6 +8,10 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+outputs:
+  home: [html, llms]
+  page: [html, markdown]
+  section: [html, rss, markdown]
 params:
   favicon: /favicon-96x96.png
   navbar:
@@ -27,10 +31,23 @@ params:
   blog:
     list:
       displayTags: true
+  imageZoom:
+    enable: true
   toc:
     displayTags: true
   displayUpdatedDate: true
   dateFormat: "January 2, 2006"
+  page:
+    # full (100%), wide (90rem), normal (80rem)
+    width: normal
+    # tabs:
+    #   sync: true
+    contextMenu:
+      enable: true
+      links:
+      
+      
+
 menu:
   main:
     - name: Home

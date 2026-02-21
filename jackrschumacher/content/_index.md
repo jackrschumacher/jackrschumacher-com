@@ -11,7 +11,7 @@ draft: false
 
 {{< card link="/projects" title="Projects" icon="paper-clip" >}}
 
-{{< card link="/blog" title="Blog" icon="rss" >}}
+{{< card link="/changelog" title="Site Changelog" icon="rss" >}}
 
 {{< /cards >}}
 
