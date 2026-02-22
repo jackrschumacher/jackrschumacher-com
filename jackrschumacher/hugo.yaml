@@ -74,12 +74,18 @@ menu:
     - identifier: Other
       name: Other
       weight: 6
+    - name: Privacy policy
+      pageRef: /privacy
+      parent: Other
+      weight: 1
     - name: Changelog
       pageRef: /changelog
       parent: Other
+      weight: 2
     - name: Archive
       pageRef: /archive
       parent: Other
+      weight: 3
 
     # - name: Blog
     #   pageRef: /blog
