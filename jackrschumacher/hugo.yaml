@@ -55,23 +55,31 @@ menu:
   main:
     - name: Home
       pageRef: /        # Points to the root (homepage)
-      weight: 10        # Lower numbers appear first (left)
+      weight: 1        # Lower numbers appear first (left)
 
     - name: About
       pageRef: /about
-      weight: 20
+      weight: 2
 
     - name: Contact
       pageRef: /contact
-      weight: 30
+      weight: 3
 
     - name: Projects
       pageRef: /projects
-      weight: 40
+      weight: 4
 
+    
+
+    - identifier: Other
+      name: Other
+      weight: 6
     - name: Changelog
       pageRef: /changelog
-      weight: 50
+      parent: Other
+    - name: Archive
+      pageRef: /archive
+      parent: Other
 
     # - name: Blog
     #   pageRef: /blog
