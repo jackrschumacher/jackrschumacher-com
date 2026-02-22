@@ -53,27 +53,22 @@ params:
 
 menu:
   main:
-    - name: Home
-      pageRef: /        # Points to the root (homepage)
-      weight: 1        # Lower numbers appear first (left)
-
+   
     - name: About
       pageRef: /about
-      weight: 2
+      weight: 1
 
     - name: Contact
       pageRef: /contact
-      weight: 3
+      weight: 2
 
     - name: Projects
       pageRef: /projects
+      weight: 3
+
+    - name: Other
+      identifier: Other
       weight: 4
-
-    
-
-    - identifier: Other
-      name: Other
-      weight: 6
     - name: Privacy policy
       pageRef: /privacy
       parent: Other
