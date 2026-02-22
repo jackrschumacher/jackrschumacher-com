@@ -1,10 +1,11 @@
 ---
 title: Changelog
+type: blog
 cascade:
-  type: blog
+  - _target:
+      kind: page
+
 reversePagination: true
-
-
 ---
 <div style="display: flex; justify-content: center; gap: 0.5rem; margin-top: 1em; flex-wrap: wrap;">
   {{< badge content="RSS feed" link="index.xml" icon="rss" >}}
