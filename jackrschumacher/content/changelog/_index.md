@@ -1,9 +1,6 @@
 ---
 title: Changelog
 type: blog
-cascade:
-  - _target:
-      kind: page
 
 reversePagination: true
 ---
