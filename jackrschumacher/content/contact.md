@@ -23,9 +23,13 @@ draft: false
 
 ## My Links
 
-{{< cards cols = "2">}}
+{{< cards cols = "3">}}
 
   {{< card link="https://www.linkedin.com/in/jackrschumacher/" title="LinkedIn" icon="briefcase" >}}
 
-{{< card link="https://www.github.com/jackrschumacher" title="GitHub" icon="cog" >}}{{< /cards >}}
+    {{< card link="https://www.github.com/jackrschumacher" title="GitHub" icon="cog" >}}
+        {{< card link="https://codeberg.org/jackrschumacher" title="Codeberg" icon="document-duplicate" >}}
+  {{< /cards >}}
+
+
 
