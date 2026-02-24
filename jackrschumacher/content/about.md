@@ -68,7 +68,7 @@ Education
 
 **Bachelor of Science, Business Information Systems**
 
-_August 2024 – May 2028_ — Sophomore
+_August 2024 – May 2028_ — Junior
 
 ### Mukwonago High School
 
