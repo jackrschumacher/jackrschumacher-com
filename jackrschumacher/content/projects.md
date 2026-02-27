@@ -33,7 +33,7 @@ This page is a list of all projects that I have been involved in or have contrib
 
 {{< badge content="cyber-notes GitHub" link="https://github.com/jackrschumacher/cyber-notes" icon="github" >}} 
 
-- A collection of cybersecurity notes,
+- A collection of cybersecurity notes 
 
 ## UAH Projects
 
@@ -54,11 +54,15 @@ This page is a list of all projects that I have been involved in or have contrib
 
 ### ASTRA
 
-#### [ASTRA-Notes](https://astra.jackrschumacher.com)
+#### [astra.jackrschumacher.com](https://astra.jackrschumacher.com)
 
 <br>
 
 {{< badge content="cyber-notes GitHub" link="https://github.com/jackrschumacher/astra-notes" icon="github" >}} 
+
+- Notes from the SHC ASTRA project
+
+<br>
 
 
 
