@@ -26,8 +26,7 @@ Experience
 
 **Marcus Theaters** — _June 2025–August 2025_ 
 
-*   Assisted guests with theater-related questions and concerns
-*   Cleaned theaters and the building as a whole, prepared concession items for guests
+Assisted guests with theater-related questions and concerns. Cleaned the building and theaters, and explained the concession menu to guests and helped to prepare concession items. 
 
 **Skills:** Team building, Customer service
 
@@ -35,11 +34,9 @@ Experience
 
 **Mukwonago Community Library** — _July 2022–July 2024_
 
-*   Created processes for operating new and existing equipment
-*   Performed administrative tasks including patron stats and feedback
-*   Led programs: LEGO Club, STEAM Design Lab
-*   Provided Tech Tutor sessions for adults
-*   Trained patrons on laser cutter, 3D printers, Cricut
+Performed makerspace administrative tasks such as calculating patron statistics and monitoring patron feedback to ensure that. Created processes for operating new and existing makerspace equipment. Trained patrons on makerspace equipment including the laser cutter, 3D printers, and the Cricut. 
+
+Led programs for children of various ages, teaching STEAM concepts through programs such as STEAM Design Lab and LEGO Club. Also provided Tech Tutoring sessions for older adults.
 
 **Skills:** CAD, Team Building, IT Operations, Information Technology, Customer service
 
@@ -81,14 +78,14 @@ _September 2020 – June 2024_
 Licenses & Certifications
 -------------------------
 
-| **Certification name**                               | **Issuer**             | **Date issued** | **Documents**                                                |
-| :--------------------------------------------------- | :--------------------- | :-------------- | :----------------------------------------------------------- |
-| Microsoft Excel Introductory Badge                   | Cengage Group          | Dec 2024        | [View](https://achievement.cengage.com/5250c7a3-05fa-4a07-9538-8a320f032772#acc.5ha7XxQm) |
-| Microsoft PowerPoint Introductory Badge              | Cengage Group          | Dec 2024        | [View](https://achievement.cengage.com/f12f141f-30e8-4305-a5e6-66a9575cda4a#acc.vwqZpVcD) |
-| Microsoft Word Introductory Badge                    | Cengage Group          | Dec 2024        | [View](https://achievement.cengage.com/6932f20e-dee7-49c5-8b13-c27b962ca782#acc.3Ynxw4LS) |
-| Cyber Skyline Spring 2024 (Team and Individual game) | Cyber Skyline          | Apr 2024        | [Individual Game PDF](/files/Jack-Schumacher-Cyber-Skyline-Spring-2024.pdf) |
-| Concepts of Entrepreneurship & Management            | ASK Business Institute | May 2023        | [View](https://badges.mbaresearch.org/badges/7WhviLHia)      |
-| Autodesk Certified User                              | Pearson                | Jan 2022        | N/A                                                          |
+|                **Certification name**                |       **Issuer**       | **Date issued** |                        **Documents**                         |
+| :--------------------------------------------------: | :--------------------: | :-------------: | :----------------------------------------------------------: |
+|          Microsoft Excel Introductory Badge          |     Cengage Group      |    Dec 2024     | [View](https://achievement.cengage.com/5250c7a3-05fa-4a07-9538-8a320f032772#acc.5ha7XxQm) |
+|       Microsoft PowerPoint Introductory Badge        |     Cengage Group      |    Dec 2024     | [View](https://achievement.cengage.com/f12f141f-30e8-4305-a5e6-66a9575cda4a#acc.vwqZpVcD) |
+|          Microsoft Word Introductory Badge           |     Cengage Group      |    Dec 2024     | [View](https://achievement.cengage.com/6932f20e-dee7-49c5-8b13-c27b962ca782#acc.3Ynxw4LS) |
+| Cyber Skyline Spring 2024 (Team and Individual game) |     Cyber Skyline      |    Apr 2024     | [Individual Game PDF](/files/Jack-Schumacher-Cyber-Skyline-Spring-2024.pdf) |
+|      Concepts of Entrepreneurship & Management       | ASK Business Institute |    May 2023     |   [View](https://badges.mbaresearch.org/badges/7WhviLHia)    |
+|               Autodesk Certified User                |        Pearson         |    Jan 2022     |                             N/A                              |
 
 
 
@@ -116,15 +113,25 @@ Relevant Coursework
 
 ### University of Alabama in Huntsville
 
-- IS 146 - Computer Applications in Business
-- IS 301 - Information Systems in Organizations
-- IS 310- Advanced Programming
+| **Course Number** |           **Course Name**            |                   **Skills**                    |
+| :---------------: | :----------------------------------: | :---------------------------------------------: |
+|      IS 146       |  Computer Applications in Business   |                Microsoft Office                 |
+|      IS 301       | Information Systems in Organizations | Organizational management with computer systems |
+|      IS 310       |         Advanced Programming         |               Python, Bash, Linux               |
+|      IS 401       |       Cybersecurity Principles       |     Kali Linux, Bash, National Cyber League     |
+
+
 
 ### Mukwonago High School
 
-*   AP Computer Science A
-*   AP Computer Science Principles
-*   AP English Language & Composition
-*   AP US History, AP World History
-*   PLTW Introduction to Engineering Design
-*   PLTW Principles of Engineering
+|             **Course Name**             |                          **Skills**                          |
+| :-------------------------------------: | :----------------------------------------------------------: |
+|          AP Computer Science A          |                             Java                             |
+|     AP Computer Science Principles      |                          JavaScript                          |
+|      Introduction to Cybersecurity      | Kali Linux, Bash, [National Cyber League](#licenses--certifications) |
+|          AP English Literature          |                  Reading, Analysis, Writing                  |
+|    AP English Language & Composition    |                  Reading, Analysis, Writing                  |
+|              AP US History              |                  History, Analysis, Writing                  |
+|            AP World History             |                  History, Analysis, Writing                  |
+| PLTW Introduction to Engineering Design |                     CAD, Design Process                      |
+|     PLTW Principles of Engineering      |                     CAD, Design Process                      |
