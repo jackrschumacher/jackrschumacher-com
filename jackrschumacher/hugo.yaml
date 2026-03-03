@@ -8,10 +8,10 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-outputs:
-  home: [html, llms]
-  page: [html, markdown]
-  section: [html, rss, markdown]
+# outputs:
+#   home: [html, llms]
+#   page: [html, markdown]
+#   section: [html, rss, markdown]
 params:
   favicon: /favicon-96x96.png
   navbar:
@@ -72,15 +72,17 @@ menu:
     - name: Privacy policy
       pageRef: /privacy
       parent: Other
-      weight: 1
+      weight: 7
     - name: Changelog
       pageRef: /changelog
       parent: Other
-      weight: 2
-    - name: Archive
-      pageRef: /archive
-      parent: Other
-      weight: 3
+      weight: 6
+
+      
+    # - name: Archive
+    #   pageRef: /archive
+    #   parent: Other
+    #   weight: 3
 
     # - name: Blog
     #   pageRef: /blog
