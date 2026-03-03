@@ -2,6 +2,7 @@
 title: "Contact"
 date: 2025-01-05
 draft: false
+weight: 2
 ---
 
 # Contact Information
