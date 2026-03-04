@@ -17,19 +17,27 @@ weight: 2
 
   
 
-  {{< cards cols = "1">}}
+{{< cards cols = "1">}}
 
-    {{< card link="/files/Jack%20Schumacher.vcf" title="Add me to your contacts" icon="identification" >}}
-  {{< /cards >}}
+{{< card link="/files/Jack%20Schumacher.vcf" title="Add me to your contacts" icon="identification" >}}
+{{< /cards >}}
 
 ## My Links
 
-{{< cards cols = "3">}}
-
+### Work
+{{< cards cols = "1">}}
   {{< card link="https://www.linkedin.com/in/jackrschumacher/" title="LinkedIn" icon="briefcase" >}}
 
-    {{< card link="https://www.github.com/jackrschumacher" title="GitHub" icon="cog" >}}
-        {{< card link="https://codeberg.org/jackrschumacher" title="Codeberg" icon="document-duplicate" >}}
+  {{< /cards >}}
+  
+### Programming
+
+{{< cards cols = "2">}}
+
+{{< card link="https://www.github.com/jackrschumacher" title="GitHub" icon="cog" >}}
+{{< card link="https://codeberg.org/jackrschumacher" title="Codeberg" icon="user" >}}
+
+
   {{< /cards >}}
 
 

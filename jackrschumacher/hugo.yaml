@@ -72,13 +72,19 @@ menu:
     - name: Privacy policy
       pageRef: /privacy
       parent: Other
-      weight: 7
+      weight: 10
     - name: Changelog
       pageRef: /changelog
       parent: Other
       weight: 6
+    - name: Report an issue
+      weight: 9
+      parent: Other
+      url: "https://github.com/jackrschumacher/jackrschumacher-com/issues"
+      params:
+        icon: github
+        type: link
 
-      
     # - name: Archive
     #   pageRef: /archive
     #   parent: Other
