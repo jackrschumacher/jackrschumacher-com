@@ -2,6 +2,7 @@
 title: "Home"
 date: 2025-01-05
 draft: false
+description: "Home-Jack Schumacher"
 ---
 
 {{< cards cols = "2">}}
