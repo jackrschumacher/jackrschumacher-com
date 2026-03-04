@@ -77,14 +77,17 @@ menu:
       pageRef: /changelog
       parent: Other
       weight: 6
-    - name: Report an issue
-      weight: 9
-      parent: Other
-      url: "https://github.com/jackrschumacher/jackrschumacher-com/issues"
-      params:
-        icon: github
-        type: link
+    
 
+    # - name: Report an issue
+    #   weight: 9
+    #   parent: Other
+    #   url: "https://github.com/jackrschumacher/jackrschumacher-com/issues"
+    #   params:
+    #     icon: github
+    #     type: link
+
+   
     # - name: Archive
     #   pageRef: /archive
     #   parent: Other
@@ -103,8 +106,15 @@ menu:
       params:
         type: search
       weight: 80
-      
-    - name: Theme
-      params:
-        type: theme-toggle
+
+    - name: GitHub 
+      url: "https://github.com/jackrschumacher/jackrschumacher-com/"
       weight: 90
+      params: 
+        icon: github
+        type: icon
+      
+    # - name: Theme
+    #   params:
+    #     type: theme-toggle
+    #   weight: 100
