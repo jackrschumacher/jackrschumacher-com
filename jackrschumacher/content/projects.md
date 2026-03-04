@@ -3,6 +3,7 @@ title: "Projects"
 date: 2025-01-06
 draft: false
 weight: 3
+description: "Jack Schumacher-Projects"
 ---
 
 
