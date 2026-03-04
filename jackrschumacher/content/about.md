@@ -3,6 +3,7 @@ title: "About"
 date: 2025-01-05
 draft: false
 weight: 1
+description: "About-Jack Schumacher"
 ---
 
 
