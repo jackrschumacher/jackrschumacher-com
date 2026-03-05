@@ -75,7 +75,7 @@ _August 2024 – May 2028_ — Junior
 
 _September 2020 – June 2024_
 
-**Activities:** FIRST Team 930 Robotics, AV Club, IT Academy (Python, Java, Cybersecurity, SQL)
+**Activities:** [FIRST Team 930 Robotics](#frc-team-930--mukwonago-robotics), AV Club, IT Academy (Python, Java, Cybersecurity, SQL)
 
 Licenses & Certifications
 -------------------------
@@ -103,7 +103,7 @@ Other Experience
 
 #### Programming Team Member — Oct 2022–June 2023
 
-*   Built Arduino + Java indicator system
+*   Built Arduino + Java LED indicator system to show the human player what game piece the operator would like
 
 #### CAD Team Member — Oct 2020–Mar 2023
 
