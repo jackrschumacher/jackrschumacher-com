@@ -1,7 +1,7 @@
 ---
 title: Archive
-# layout: archives
+layout: archives
 toc: false
-draft: true
+draft: false
 description: "Changelog archive"
 ---

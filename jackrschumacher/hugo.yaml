@@ -8,10 +8,10 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-# outputs:
-#   home: [html, llms]
-#   page: [html, markdown]
-#   section: [html, rss, markdown]
+outputs:
+  home: [html, llms]
+  page: [html, markdown]
+  section: [html, rss, markdown]
 params:
   favicon: /favicon-96x96.png
   description: "Jack Schumacher"
@@ -33,7 +33,7 @@ params:
     list:
       displayTags: true
   archives:
-    section: changelog
+    section: blog
 
   imageZoom:
     enable: true
@@ -66,7 +66,7 @@ menu:
     - name: Projects
       pageRef: /projects
       weight: 3
-
+    
     - name: Other
       identifier: Other
       weight: 4
@@ -78,21 +78,17 @@ menu:
       pageRef: /changelog
       parent: Other
       weight: 6
-    
-
-    # - name: Report an issue
-    #   weight: 9
-    #   parent: Other
-    #   url: "https://github.com/jackrschumacher/jackrschumacher-com/issues"
-    #   params:
-    #     icon: github
-    #     type: link
-
-   
-    # - name: Archive
-    #   pageRef: /archive
-    #   parent: Other
-    #   weight: 3
+    - name: Archive
+      pageRef: /archive
+      parent: Other
+      weight: 3
+    - name: Report an issue
+      weight: 9
+      parent: Other
+      url: "https://github.com/jackrschumacher/jackrschumacher-com/issues"
+      params:
+        icon: github
+        type: link
 
     # - name: Blog
     #   pageRef: /blog
