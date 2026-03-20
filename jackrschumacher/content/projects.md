@@ -67,7 +67,7 @@ This page is a list of all projects that I have been involved in or have contrib
 
 <br>
 
-{{< badge content="cyber-notes GitHub" link="https://github.com/jackrschumacher/astra-notes" icon="github" >}} 
+{{< badge content="ASTRA-Notes GitHub" link="https://github.com/jackrschumacher/astra-notes" icon="github" >}} 
 
 - Notes from the SHC ASTRA project
 
