@@ -78,10 +78,10 @@ menu:
       pageRef: /changelog
       parent: Other
       weight: 6
-    - name: Archive
-      pageRef: /archive
-      parent: Other
-      weight: 3
+    # - name: Archive
+    #   pageRef: /archive
+    #   parent: Other
+    #   weight: 3
     - name: Report an issue
       weight: 9
       parent: Other
@@ -104,14 +104,14 @@ menu:
         type: search
       weight: 80
 
-    - name: GitHub 
-      url: "https://github.com/jackrschumacher/jackrschumacher-com/"
-      weight: 90
-      params: 
-        icon: github
-        type: icon
+    # - name: GitHub 
+    #   url: "https://github.com/jackrschumacher/jackrschumacher-com/"
+    #   weight: 90
+    #   params: 
+    #     icon: github
+    #     type: icon
       
-    # - name: Theme
-    #   params:
-    #     type: theme-toggle
-    #   weight: 100
+    - name: Theme
+      params:
+        type: theme-toggle
+      weight: 100
