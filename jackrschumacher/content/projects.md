@@ -49,7 +49,7 @@ This page is a list of all projects that I have been involved in or have contrib
 
 ### IS 340
 
-#### [UAH-IS-Assignment-7](https://github.com/jackrschumacher/UAH-IS-340-Assignment-7)
+#### [UAH-IS-340-Assignment-7](https://github.com/jackrschumacher/UAH-IS-340-Assignment-7)
 
 #### [UAH-IS-340-Project-1](https://github.com/jackrschumacher/UAH-IS-340-Project-1)
 
