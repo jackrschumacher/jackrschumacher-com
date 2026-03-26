@@ -37,11 +37,11 @@ This page is a list of all projects that I have been involved in or have contrib
 
 ## Ansible
 
-### [linux-playbook](https://github.com/jackrschumacher/linux-playbook)
+#### [linux-playbook](https://github.com/jackrschumacher/linux-playbook)
 
 - General Linux Ansible playbooks
 
-### [cyber-playbook](https://github.com/jackrschumacher/cyber-playbook)
+#### [cyber-playbook](https://github.com/jackrschumacher/cyber-playbook)
 
 - Cybersecurity Ansible playbooks
 
