@@ -9,9 +9,7 @@ description: "Jack Schumacher-Projects"
 
 This page is a list of all projects that I have been involved in or have contributed to significantly
 
-## Personal projects
-
-### Websites
+## Websites
 
 #### [jackrschumacher.com](https://www.jackrschumacher.com)
 
@@ -36,6 +34,16 @@ This page is a list of all projects that I have been involved in or have contrib
 {{< badge content="cyber-notes GitHub" link="https://github.com/jackrschumacher/cyber-notes" icon="github" >}} 
 
 - A collection of cybersecurity notes 
+
+## Ansible
+
+### [linux-playbook](https://github.com/jackrschumacher/linux-playbook)
+
+- General Linux Ansible playbooks
+
+### [cyber-playbook](https://github.com/jackrschumacher/cyber-playbook)
+
+- Cybersecurity Ansible playbooks
 
 ## UAH Projects
 
