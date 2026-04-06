@@ -13,8 +13,8 @@ main() {
   GO_VERSION=1.25.6
   
   # Parse the new .hvm format (e.g., v0.159.2/extended)
-  HVM_CONTENT=$(cat jackrschumacher/.hvm)
-  HVM_VERSION=$(echo "$HVM_CONTENT" | cut -d'/' -f1) # e.g., v0.159.2
+  HVM_CONTENT=$(cat jackrschumacher/.hvm | tr -d '\r\n')  # Strips hidden line endings
+  HVM_VERSION=$(echo "$HVM_CONTENT" | cut -d'/' -f1) # e.g., v0.160.0
   HVM_EDITION=$(echo "$HVM_CONTENT" | cut -d'/' -f2) # e.g., extended
   RAW_VERSION="${HVM_VERSION#v}"                     # e.g., 0.159.2
   
