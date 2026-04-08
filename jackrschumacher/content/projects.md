@@ -35,6 +35,14 @@ This page is a list of all projects that I have been involved in or have contrib
 
 - A collection of cybersecurity notes 
 
+#### [benchmarks.jackrschumacher.com](https://benchmarks.jackrschumacher.com)
+
+<br>
+
+{{< badge content="benchmarks GitHub" link="https://github.com/jackrschumacher/benchmarks" icon="github" >}} 
+
+- Benchmarks for my devices
+
 ## Ansible
 
 #### [linux-playbook](https://github.com/jackrschumacher/linux-playbook)
@@ -44,6 +52,10 @@ This page is a list of all projects that I have been involved in or have contrib
 #### [cyber-playbook](https://github.com/jackrschumacher/cyber-playbook)
 
 - Cybersecurity Ansible playbooks
+
+#### [benchmark-playbook](https://github.com/jackrschumacher/benchmark-playbook)
+
+- Ansible playbook that installs and runs Geekbench and [sbc-bench](https://github.com/ThomasKaiser/sbc-bench).
 
 ## UAH Projects
 
