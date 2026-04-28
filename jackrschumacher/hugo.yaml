@@ -1,5 +1,5 @@
 baseURL: https://www.jackrschumacher.com/
-languageCode: "en"
+locale: "en"
 title: Jack Schumacher
 module:
   imports:
