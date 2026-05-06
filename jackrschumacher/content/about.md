@@ -80,14 +80,15 @@ _September 2020 – June 2024_
 Licenses & Certifications
 -------------------------
 
-|                **Certification name**                |       **Issuer**       | **Date issued** |                        **Documents**                         |
-| :--------------------------------------------------: | :--------------------: | :-------------: | :----------------------------------------------------------: |
-|          Microsoft Excel Introductory Badge          |     Cengage Group      |    Dec 2024     | [View](https://achievement.cengage.com/5250c7a3-05fa-4a07-9538-8a320f032772#acc.5ha7XxQm) |
-|       Microsoft PowerPoint Introductory Badge        |     Cengage Group      |    Dec 2024     | [View](https://achievement.cengage.com/f12f141f-30e8-4305-a5e6-66a9575cda4a#acc.vwqZpVcD) |
-|          Microsoft Word Introductory Badge           |     Cengage Group      |    Dec 2024     | [View](https://achievement.cengage.com/6932f20e-dee7-49c5-8b13-c27b962ca782#acc.3Ynxw4LS) |
-| Cyber Skyline Spring 2024 (Team and Individual game) |     Cyber Skyline      |    Apr 2024     | [Individual Game PDF](/files/Jack-Schumacher-Cyber-Skyline-Spring-2024.pdf) |
-|      Concepts of Entrepreneurship & Management       | ASK Business Institute |    May 2023     |   [View](https://badges.mbaresearch.org/badges/7WhviLHia)    |
-|               Autodesk Certified User                |        Pearson         |    Jan 2022     |                             N/A                              |
+|          **Certification name**           |              **Issuer**               | **Date issued** |                        **Documents**                         |
+| :---------------------------------------: | :-----------------------------------: | :-------------: | :----------------------------------------------------------: |
+| Concepts of Entrepreneurship & Management |        ASK Business Institute         |    May 2023     |   [View](https://badges.mbaresearch.org/badges/7WhviLHia)    |
+|          Autodesk Certified User          |                Pearson                |    Jan 2022     |                             N/A                              |
+|    Microsoft Excel Introductory Badge     |             Cengage Group             |    Dec 2024     | [View](https://achievement.cengage.com/5250c7a3-05fa-4a07-9538-8a320f032772#acc.5ha7XxQm) |
+|  Microsoft PowerPoint Introductory Badge  |             Cengage Group             |    Dec 2024     | [View](https://achievement.cengage.com/f12f141f-30e8-4305-a5e6-66a9575cda4a#acc.vwqZpVcD) |
+|     Microsoft Word Introductory Badge     |             Cengage Group             |    Dec 2024     | [View](https://achievement.cengage.com/6932f20e-dee7-49c5-8b13-c27b962ca782#acc.3Ynxw4LS) |
+|         Cyber Skyline Spring 2024         | Cyber Skyline (National Cyber League) |    Apr 2024     | [Individual Game PDF](/files/Jack-Schumacher-Cyber-Skyline-Spring-2024.pdf) |
+|         Cyber Skyline Spring 2026         | Cyber Skyline (National Cyber League) |    Apr 2026     | [Individual Game PDF](/files/Jack-Schumacher-Cyber-Skyline-Spring-2026.pdf) |
 
 
 
@@ -121,7 +122,7 @@ Relevant Coursework
 |      IS 301       | Information Systems in Organizations | Organizational management with computer systems |
 |      IS 310       |         Advanced Programming         |               Python, Bash, Linux               |
 |      IS 340       |         Database Management          |            SQL, Microsoft SQL Server            |
-|      IS 401       |       Cybersecurity Principles       |     Kali Linux, Bash, National Cyber League     |
+|      IS 401       |       Cybersecurity Principles       |     Kali Linux, Bash, [National Cyber League](#licenses--certifications)     |
 
 
 
