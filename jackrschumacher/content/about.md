@@ -120,6 +120,7 @@ Relevant Coursework
 |      IS 146       |  Computer Applications in Business   |                Microsoft Office                 |
 |      IS 301       | Information Systems in Organizations | Organizational management with computer systems |
 |      IS 310       |         Advanced Programming         |               Python, Bash, Linux               |
+|      IS 340       |         Database Management          |            SQL, Microsoft SQL Server            |
 |      IS 401       |       Cybersecurity Principles       |     Kali Linux, Bash, National Cyber League     |
 
 
