@@ -48,13 +48,7 @@ params:
     #   sync: true
     contextMenu:
       enable: true
-      links:
-security:
-  http:
-    urls:
-      - '(?i)^https?://[a-z]'
-      - '! (?i)localhost'     
-      
+      links:     
 
 menu:
   main:
