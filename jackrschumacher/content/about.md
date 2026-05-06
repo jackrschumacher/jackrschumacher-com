@@ -88,7 +88,7 @@ Licenses & Certifications
 |  Microsoft PowerPoint Introductory Badge  |             Cengage Group             |    Dec 2024     | [View](https://achievement.cengage.com/f12f141f-30e8-4305-a5e6-66a9575cda4a#acc.vwqZpVcD) |
 |     Microsoft Word Introductory Badge     |             Cengage Group             |    Dec 2024     | [View](https://achievement.cengage.com/6932f20e-dee7-49c5-8b13-c27b962ca782#acc.3Ynxw4LS) |
 |         Cyber Skyline Spring 2024         | Cyber Skyline (National Cyber League) |    Apr 2024     | [Individual Game PDF](/files/Jack-Schumacher-Cyber-Skyline-Spring-2024.pdf) |
-|         Cyber Skyline Spring 2026         | Cyber Skyline (National Cyber League) |    Apr 2026     | [Individual Game PDF](/files/Jack-Schumacher-Cyber-Skyline-Spring-2026.pdf) |
+|         Cyber Skyline Spring 2026         | Cyber Skyline (National Cyber League) |    Apr 2026     |  |
 
 
 
