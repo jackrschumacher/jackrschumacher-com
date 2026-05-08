@@ -80,15 +80,16 @@ _September 2020 – June 2024_
 Licenses & Certifications
 -------------------------
 
-|          **Certification name**           |              **Issuer**               | **Date issued** |                        **Documents**                         |
-| :---------------------------------------: | :-----------------------------------: | :-------------: | :----------------------------------------------------------: |
-| Concepts of Entrepreneurship & Management |        ASK Business Institute         |    May 2023     |   [View](https://badges.mbaresearch.org/badges/7WhviLHia)    |
-|          Autodesk Certified User          |                Pearson                |    Jan 2022     |                             N/A                              |
-|    Microsoft Excel Introductory Badge     |             Cengage Group             |    Dec 2024     | [View](https://achievement.cengage.com/5250c7a3-05fa-4a07-9538-8a320f032772#acc.5ha7XxQm) |
-|  Microsoft PowerPoint Introductory Badge  |             Cengage Group             |    Dec 2024     | [View](https://achievement.cengage.com/f12f141f-30e8-4305-a5e6-66a9575cda4a#acc.vwqZpVcD) |
-|     Microsoft Word Introductory Badge     |             Cengage Group             |    Dec 2024     | [View](https://achievement.cengage.com/6932f20e-dee7-49c5-8b13-c27b962ca782#acc.3Ynxw4LS) |
-|         Cyber Skyline Spring 2024         | Cyber Skyline (National Cyber League) |    Apr 2024     | [Individual Game PDF](/files/Jack-Schumacher-Cyber-Skyline-Spring-2024.pdf) |
-|         Cyber Skyline Spring 2026         | Cyber Skyline (National Cyber League) |    Apr 2026     |  |
+| **Date issued** |          **Certification name**           |              **Issuer**               |                        **Documents**                         |
+| :---------------------------------------: | :---------------------------------------: | :-----------------------------------: | :----------------------------------------------------------: |
+|                 May 2023                  | Concepts of Entrepreneurship & Management |        ASK Business Institute         |   [View](https://badges.mbaresearch.org/badges/7WhviLHia)    |
+|                 Jan 2022                  |          Autodesk Certified User          |                Pearson                |                             N/A                              |
+|                 Dec 2024                  |    Microsoft Excel Introductory Badge     |             Cengage Group             | [View](https://achievement.cengage.com/5250c7a3-05fa-4a07-9538-8a320f032772#acc.5ha7XxQm) |
+|                 Dec 2024                  |  Microsoft PowerPoint Introductory Badge  |             Cengage Group             | [View](https://achievement.cengage.com/f12f141f-30e8-4305-a5e6-66a9575cda4a#acc.vwqZpVcD) |
+|                 Dec 2024                  |     Microsoft Word Introductory Badge     |             Cengage Group             | [View](https://achievement.cengage.com/6932f20e-dee7-49c5-8b13-c27b962ca782#acc.3Ynxw4LS) |
+|                 Apr 2024                  |         Cyber Skyline Spring 2024         | Cyber Skyline (National Cyber League) | [NCL Spring 2024 Scouting Report](/files/Jack-Schumacher-Cyber-Skyline-Spring-2024-Report.pdf) [NCL Spring 2024 certificate](/files/Jack-Schumacher-Cyber-Skyline-Spring-2024-Certificate.pdf) |
+|                 May 2025                  |          Oracle Java Foundations          |           LinkedIn Learning           | [View](https://www.linkedin.com/learning/certificates/de9ca9e0c523777940b5b4adb70981b2d38cfcdf6edeb2af9b52a127c7b870d4) |
+|                 Apr 2026                  |         Cyber Skyline Spring 2026         | Cyber Skyline (National Cyber League) | [NCL Spring 2026 Scouting Report](/files/Jack-Schumacher-Cyber-Skyline-Spring-2026-Report.pdf)  [NCL Spring 2026 certificate](/files/Jack-Schumacher-Cyber-Skyline-Spring-2026-Certificate.pdf) |
 
 
 
