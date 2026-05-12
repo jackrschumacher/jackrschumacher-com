@@ -7,7 +7,8 @@ description: "Home-Jack Schumacher"
 
 {{< cards cols = "2">}}
 
-  {{< card link="/about" title="About me" icon="information-circle" >}}
+{{< card link="/about" title="About me" icon="information-circle" >}}
+
 {{< card link="/contact" title="Contact" icon="identification" >}}
 
 {{< card link="/projects" title="Projects" icon="paper-clip" >}}
