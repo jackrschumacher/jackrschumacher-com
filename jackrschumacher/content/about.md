@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2025-01-05
+date: 2026-01-05
 draft: false
 weight: 1
 description: "About-Jack Schumacher"
@@ -46,9 +46,7 @@ Led programs for children of various ages, teaching STEAM concepts through progr
 
 **Textron Systems (Medical Numerics)** — _October 2023–January 2024_
 
-Developed software platform for next-gen GE MRI scanners using Angular, JavaScript, Node.js. Gained foundational Linux skills.
 
-**Skills:** Angular, Node.js, Linux, JavaScript
 
 ### Live Streaming Intern
 

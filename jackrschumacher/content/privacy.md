@@ -1,5 +1,6 @@
 ---
 title: Privacy policy
+date: 2026-02-21
 description: "Privacy policy for jackrschumacher.com"
 ---
 
