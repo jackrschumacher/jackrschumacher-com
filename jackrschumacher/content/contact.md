@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-date: 2025-01-05
+date: 2026-01-05
 draft: false
 weight: 2
 description: "Contact-Jack Schumacher"
