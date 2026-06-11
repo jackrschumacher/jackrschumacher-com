@@ -73,7 +73,7 @@ main() {
 
   # Build the site
   echo "Building the site..."
-  cd jackrschumacher
+  cd jackrschumacher-com
   hugo --gc --minify -d ../public
 
 }
