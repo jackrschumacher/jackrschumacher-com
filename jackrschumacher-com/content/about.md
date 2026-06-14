@@ -24,6 +24,14 @@ I am a current Junior at the University of Alabama in Huntsville, pursuing a deg
 Experience
 ----------
 
+### IT Results and Delivery Intern
+
+**Generac Power Systems** — *June 2026-current*
+
+Supports the Results and Delivery office in ensuring that IT initiatives are tracked, communicated and executed properly throughout the organization.
+
+**Skills:** IT operations, Jira, Microsoft 365 suite
+
 ### Associate
 
 **Marcus Theaters** — _June 2025–August 2025_ 
@@ -46,7 +54,7 @@ Led programs for children of various ages, teaching STEAM concepts through progr
 
 **Textron Systems (Medical Numerics)** — _October 2023–January 2024_
 
-
+Developed software platform for next-gen GE MRI scanners using Angular, JavaScript, and Node.js. Gained foundational Linux skills.
 
 ### Live Streaming Intern
 
