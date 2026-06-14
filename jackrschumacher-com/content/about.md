@@ -88,6 +88,7 @@ Licenses & Certifications
 |                 Apr 2024                  |         Cyber Skyline Spring 2024         | Cyber Skyline (National Cyber League) | [NCL Spring 2024 Scouting Report](/files/Jack-Schumacher-Cyber-Skyline-Spring-2024-Report.pdf) [NCL Spring 2024 certificate](/files/Jack-Schumacher-Cyber-Skyline-Spring-2024-Certificate.pdf) |
 |                 May 2025                  |          Oracle Java Foundations          |           LinkedIn Learning           | [View](https://www.linkedin.com/learning/certificates/de9ca9e0c523777940b5b4adb70981b2d38cfcdf6edeb2af9b52a127c7b870d4) |
 |                 Apr 2026                  |         Cyber Skyline Spring 2026         | Cyber Skyline (National Cyber League) | [NCL Spring 2026 Scouting Report](/files/Jack-Schumacher-Cyber-Skyline-Spring-2026-Report.pdf)  [NCL Spring 2026 certificate](/files/Jack-Schumacher-Cyber-Skyline-Spring-2026-Certificate.pdf) |
+| Jun 2026 | Agile Foundations | LinkedIn Learning | [View](https://www.linkedin.com/learning/certificates/9f70049a3c060a8caeb70c328cf8179bfd5cb3c8957550e99585ef4016967a2b) |
 
 
 
