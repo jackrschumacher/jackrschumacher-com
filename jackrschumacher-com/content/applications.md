@@ -10,6 +10,14 @@ Derived from [about page](/about)
 
 ## Work experience
 
+### IT Results and Delivery Intern
+
+**Generac Power Systems** — *June 2026-current*
+
+Support the Results and Delivery office in ensuring that IT initiatives are tracked, communicated and executed properly throughout the organization.
+
+**Skills:** IT operations, Jira, Microsoft 365 suite
+
 ### Associate
 
 **Marcus Theaters**
