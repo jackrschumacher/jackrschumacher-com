@@ -14,7 +14,6 @@ description: "Contact-Jack Schumacher"
 
 * **University Email:** [school@jackrschumacher.com](mailto:school@jackrschumacher.com)
 
-  [ ]( )
 
   
 
