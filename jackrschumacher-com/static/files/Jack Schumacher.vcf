@@ -1,13 +1,9 @@
 BEGIN:VCARD
 VERSION:3.0
-FN:Jack Schumacher
+REV:2026-06-23T00:00:00Z
 N:Schumacher;Jack;;;
-item1.EMAIL;TYPE=INTERNET:contact@jackrschumacher.com
-item1.X-ABLabel:
-item2.EMAIL;TYPE=INTERNET:school@jackrschumacher.com
-item2.X-ABLabel:
-TEL;TYPE=CELL:+1  
-PHOTO:https://lh3.googleusercontent.com/contacts/AG6tpzE9VGSjmTVWzgyuqKnE1R
- fYTJoG5Eu7cL_yK9X6858PhmeM-JlA
-CATEGORIES:myContacts
+EMAIL;INTERNET:contact@jackrschumacher.com
+EMAIL;INTERNET:uah@jackrschumacher.com
+URL:https://www.jackrschumacher.com
+URL:https://links.jackrschumacher.com
 END:VCARD
