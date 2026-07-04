@@ -34,8 +34,8 @@ description: "Contact-Jack Schumacher"
 
 {{< cards cols = "2">}}
 
-{{< card link="https://www.github.com/jackrschumacher" title="GitHub" icon="cog" >}}
-{{< card link="https://codeberg.org/jackrschumacher" title="Codeberg" icon="user" >}}
+{{< card link="https://www.github.com/jackrschumacher" title="GitHub" icon="code" >}}
+{{< card link="https://codeberg.org/jackrschumacher" title="Codeberg" icon="code" >}}
 
 
   {{< /cards >}}
