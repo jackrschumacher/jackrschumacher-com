@@ -1,3 +1,4 @@
 public/
 resources/
 /nbproject/
+.hugo_build.lock
