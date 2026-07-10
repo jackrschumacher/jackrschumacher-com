@@ -12,9 +12,11 @@ outputs:
   home: [html, llms]
   page: [html, markdown]
   section: [html, rss, markdown]
+enableGitInfo: true
 params:
   favicon: /favicon-96x96.png
   description: "Jack Schumacher"
+  displayUpdatedAuthor: true
   navbar:
     displayLogo: true
     logo:
