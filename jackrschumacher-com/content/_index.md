@@ -3,6 +3,8 @@ title: "Home"
 date: 2026-01-05
 draft: false
 description: "Home-Jack Schumacher"
+cascade: 
+    comments: false
 ---
 
 {{< cards cols = "2">}}
