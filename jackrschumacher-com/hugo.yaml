@@ -23,6 +23,17 @@ params:
       path: /favicon-96x96.png    # Path relative to 'static'
       width: 25                  # Adjust size as needed
       height: 25
+  comments:
+    enable: true
+    type: giscus
+    giscus:
+        repo: "jackrschumacher/jackrschumacher-com"
+        repoId: "R_kgDOOW5CFg"
+        category: "Site comments"
+        categoryId: "DIC_kwDOOW5CFs4DBExG"
+        mapping: "title"
+        inputPosition: "top"
+        reactionsEnabled: 0 # Disable reactions
   # banner:
     # key: "announcement"
     # message: This site has recently been migrated to Hugo. Report issues [here](https://github.com/jackrschumacher/website/issues)
