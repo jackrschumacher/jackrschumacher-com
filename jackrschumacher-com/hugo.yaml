@@ -100,6 +100,13 @@ menu:
       params:
         icon: github
         type: link
+    - name: Status
+      weight: 10
+      parent: Other
+      url: "https://status.jackrschumacher.com"
+      params:
+        icon: status-online
+        type: link
 
     # - name: Blog
     #   pageRef: /blog
