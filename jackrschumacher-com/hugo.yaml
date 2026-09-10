@@ -4,15 +4,15 @@ title: Jack Schumacher
 module:
   imports:
     - path: github.com/imfing/hextra
-mounts:
-  # Set up mount for resume
-  - source: static
-    targert: static
+  mounts:
+    # Set up mount for resume
+    - source: static
+      target: static
 
 
-    # Replace source path when resume file is updated
-  - source: static/files/Jack-Schumacher-resume-8-29-26-for-website.pdf
-    target: static/resume.pdf
+      # Replace source path when resume file is updated
+    - source: static/files/Jack-Schumacher-resume-8-29-26-for-website.pdf
+      target: static/resume.pdf
 
 markup:
   goldmark:
