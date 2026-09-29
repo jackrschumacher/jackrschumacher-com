@@ -4,6 +4,7 @@ date: 2026-05-15
 draft: false
 weight: 1
 description: "Applications"
+excludeSearch: true
 ---
 
 Derived from [about page](/about)
