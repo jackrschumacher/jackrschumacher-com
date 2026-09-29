@@ -18,7 +18,7 @@ I am a current Junior at the University of Alabama in Huntsville, pursuing a deg
 
 {{< card link="/resume.pdf" title="My Resume" icon="document-text" >}}
 
-{{< card link="https://www.linkedin.com/in/jackrschumacher/" title="LinkedIn" icon="briefcase" >}}
+{{< card link="https://www.linkedin.com/in/jackrschumacher/" title="LinkedIn" icon="linkedin-iconify" >}}
 
 {{< /cards >}}
 

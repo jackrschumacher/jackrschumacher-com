@@ -26,7 +26,7 @@ description: "Contact-Jack Schumacher"
 
 ### Work
 {{< cards cols = "1">}}
-  {{< card link="https://www.linkedin.com/in/jackrschumacher/" title="LinkedIn" icon="briefcase" >}}
+  {{< card link="https://www.linkedin.com/in/jackrschumacher/" title="LinkedIn" icon="linkedin-iconify" >}}
 
   {{< /cards >}}
   
@@ -34,8 +34,8 @@ description: "Contact-Jack Schumacher"
 
 {{< cards cols = "2">}}
 
-{{< card link="https://www.github.com/jackrschumacher" title="GitHub" icon="code" >}}
-{{< card link="https://codeberg.org/jackrschumacher" title="Codeberg" icon="code" >}}
+{{< card link="https://www.github.com/jackrschumacher" title="GitHub" icon="simple:github" >}}
+{{< card link="https://codeberg.org/jackrschumacher" title="Codeberg" icon="simple:codeberg" >}}
 
 
   {{< /cards >}}

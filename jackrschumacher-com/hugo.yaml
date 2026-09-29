@@ -23,6 +23,7 @@ outputs:
   page: [html, markdown]
   section: [html, rss, markdown]
 enableGitInfo: true
+enableInlineShortcodes: true
 params:
   favicon: /favicon-96x96.png
   description: "Jack Schumacher"
@@ -108,7 +109,7 @@ menu:
       parent: Other
       url: "https://github.com/jackrschumacher/jackrschumacher-com/issues"
       params:
-        icon: github
+        icon: simple:github
         type: link
     - name: Status
       weight: 11
