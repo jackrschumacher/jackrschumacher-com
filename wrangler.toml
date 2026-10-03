@@ -7,3 +7,9 @@ command = "chmod a+x build.sh && ./build.sh"
 [assets]
 directory = "./public"
 not_found_handling = "404-page"
+
+[env.dev]
+name = "jackrschumacher-com-dev"
+routes = [
+    { pattern = "dev.jackrschumacher.com", custom_domain = true }
+]

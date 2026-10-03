@@ -74,7 +74,12 @@ main() {
   # Build the site
   echo "Building the site..."
   cd jackrschumacher-com
-  hugo --gc --minify -d ../public
+  if [ "${WORKERS_CI_BRANCH:-}" = "dev" ]; then
+    BASE_URL="https://dev.jackrschumacher.com/"
+  else
+    BASE_URL="https://www.jackrschumacher.com/"
+  fi
+  hugo --gc --minify -d ../public --baseURL "$BASE_URL"
 
 }
 
