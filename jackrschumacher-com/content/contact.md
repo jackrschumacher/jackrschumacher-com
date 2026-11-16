@@ -32,13 +32,14 @@ description: "Contact-Jack Schumacher"
   
 ### Programming
 
-{{< cards cols = "2">}}
+{{< cards cols = "1">}}
 
 {{< card link="https://www.github.com/jackrschumacher" title="GitHub" icon="simple:github" >}}
+{{< card link="https://gitlab.com/jackrschumacher" title="GitLab" icon="simple:gitlab" >}}
 {{< card link="https://codeberg.org/jackrschumacher" title="Codeberg" icon="simple:codeberg" >}}
 
 
-  {{< /cards >}}
+{{< /cards >}}
 
 
 
